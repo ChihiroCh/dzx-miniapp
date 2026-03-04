@@ -40,11 +40,11 @@ const openFactoryList = () => {
 
               <view class="factory-meta">
                 <view class="meta-row">
-                  <image class="meta-icon" src="/static/icons/park-factories/maximize-2.png" mode="aspectFit" />
+                  <image class="meta-icon" :src="'/package-invest/static/icons/park-factories/maximize-2.png'" mode="aspectFit" />
                   <text>{{ factory.spec }}</text>
                 </view>
                 <view class="meta-row">
-                  <image class="meta-icon" src="/static/icons/park-factories/zap.png" mode="aspectFit" />
+                  <image class="meta-icon" :src="'/package-invest/static/icons/park-factories/zap.png'" mode="aspectFit" />
                   <text>{{ factory.power }}</text>
                 </view>
               </view>
@@ -53,7 +53,7 @@ const openFactoryList = () => {
                 <text class="factory-price">{{ factory.price }}</text>
                 <view class="detail-btn">
                   <text class="detail-btn-text">查看详情</text>
-                  <image class="detail-btn-icon" src="/static/icons/park-factories/chevron-right.png" mode="aspectFit" />
+                  <image class="detail-btn-icon" :src="'/package-invest/static/icons/park-factories/chevron-right.png'" mode="aspectFit" />
                 </view>
               </view>
             </view>
@@ -63,7 +63,7 @@ const openFactoryList = () => {
 
       <view class="all-btn" @tap="openFactoryList">
         <text class="all-btn-text">查看全部厂房</text>
-        <image class="all-btn-icon" src="/static/icons/park-factories/chevron-right.png" mode="aspectFit" />
+        <image class="all-btn-icon" :src="'/package-invest/static/icons/park-factories/chevron-right.png'" mode="aspectFit" />
       </view>
     </view>
   </view>

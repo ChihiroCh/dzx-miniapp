@@ -26,17 +26,17 @@ const setTab = (index) => {
   <view class="park-banner">
     <view class="tab-group">
       <button class="tab-btn" :class="{ 'tab-btn-active': currentTab === 0 }" @tap="setTab(0)">
-        <image class="tab-icon" src="/static/icons/park-banner/play.png" mode="aspectFit" />
+        <image class="tab-icon" :src="'/package-invest/static/icons/park-banner/play.png'" mode="aspectFit" />
         <text>视频</text>
       </button>
 
       <button class="tab-btn" :class="{ 'tab-btn-active': currentTab === 1 }" @tap="setTab(1)">
-        <image class="tab-icon" src="/static/icons/park-banner/image.png" mode="aspectFit" />
+        <image class="tab-icon" :src="'/package-invest/static/icons/park-banner/image.png'" mode="aspectFit" />
         <text>图片</text>
       </button>
 
       <button class="tab-btn" :class="{ 'tab-btn-active': currentTab === 2 }" @tap="setTab(2)">
-        <image class="tab-icon" src="/static/icons/park-banner/wind.png" mode="aspectFit" />
+        <image class="tab-icon" :src="'/package-invest/static/icons/park-banner/wind.png'" mode="aspectFit" />
         <text>航拍</text>
       </button>
     </view>

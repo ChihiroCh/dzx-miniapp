@@ -103,7 +103,7 @@ const openFactoryDetail = (item) => {
         个厂房
       </text>
       <view class="filter-btn">
-        <image class="filter-icon" src="/static/icons/factory-list/list-filter.png" mode="aspectFit" />
+        <image class="filter-icon" :src="'/package-invest/static/icons/factory-list/list-filter.png'" mode="aspectFit" />
       </view>
     </view>
 
@@ -126,15 +126,15 @@ const openFactoryDetail = (item) => {
 
           <view class="spec-grid">
             <view class="spec-item">
-              <image class="spec-icon" src="/static/icons/factory-list/maximize-2.png" mode="aspectFit" />
+              <image class="spec-icon" :src="'/package-invest/static/icons/factory-list/maximize-2.png'" mode="aspectFit" />
               <text class="spec-text">{{ item.area }}</text>
             </view>
             <view class="spec-item">
-              <image class="spec-icon" src="/static/icons/factory-list/layers.png" mode="aspectFit" />
+              <image class="spec-icon" :src="'/package-invest/static/icons/factory-list/layers.png'" mode="aspectFit" />
               <text class="spec-text">{{ item.height }}</text>
             </view>
             <view class="spec-item">
-              <image class="spec-icon" src="/static/icons/factory-list/zap.png" mode="aspectFit" />
+              <image class="spec-icon" :src="'/package-invest/static/icons/factory-list/zap.png'" mode="aspectFit" />
               <text class="spec-text">{{ item.power }}</text>
             </view>
           </view>
@@ -158,7 +158,7 @@ const openFactoryDetail = (item) => {
             </view>
 
             <view class="consult-btn" @tap.stop>
-              <image class="consult-icon" src="/static/icons/factory-list/message-circle.png" mode="aspectFit" />
+              <image class="consult-icon" :src="'/package-invest/static/icons/factory-list/message-circle.png'" mode="aspectFit" />
               <text class="consult-text">咨询</text>
             </view>
           </view>

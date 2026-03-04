@@ -5,17 +5,17 @@ const slides = [
   {
     title: "大招象园区巡礼 - 走进张江科学城",
     tag: "园区活动",
-    image: "/static/home-activity/activity-1.png",
+    image: "/static/home-activity/activity-1.jpg",
   },
   {
     title: "2025制造业选址峰会高峰论坛",
     tag: "园区活动",
-    image: "/static/home-activity/activity-2.png",
+    image: "/static/home-activity/activity-2.jpg",
   },
   {
     title: "东方美谷产业对接洽谈会",
     tag: "园区活动",
-    image: "/static/home-activity/activity-3.png",
+    image: "/static/home-activity/activity-3.jpg",
   },
 ];
 

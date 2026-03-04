@@ -101,7 +101,7 @@ const refreshFaq = () => {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #2563eb;
+  color: #003367;
 }
 
 .faq-refresh-btn::after {

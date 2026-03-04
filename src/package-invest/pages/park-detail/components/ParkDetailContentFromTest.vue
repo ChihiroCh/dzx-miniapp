@@ -20,7 +20,7 @@ const props = defineProps({
       </view>
 
       <view class="location-line">
-        <image class="location-icon" src="/static/icons/park-detail-content/map-pin.png" mode="aspectFit" />
+        <image class="location-icon" :src="'/package-invest/static/icons/park-detail-content/map-pin.png'" mode="aspectFit" />
         <text class="location-text">{{ props.park.location || "上海·浦东" }}</text>
       </view>
 
@@ -29,7 +29,7 @@ const props = defineProps({
 
     <view class="rating-row">
       <view class="star-list">
-        <image v-for="index in 5" :key="`star-${index}`" class="star-icon" src="/static/icons/park-detail-content/star.png" mode="aspectFit" />
+        <image v-for="index in 5" :key="`star-${index}`" class="star-icon" :src="'/package-invest/static/icons/park-detail-content/star.png'" mode="aspectFit" />
       </view>
       <text class="rating-text">5.0 (1200家企业入驻)</text>
     </view>

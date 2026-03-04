@@ -37,9 +37,10 @@
 .startup-card {
   overflow: hidden;
   border-radius: 16rpx;
-  border: 2rpx solid rgba(148, 163, 184, 0.3);
-  background: rgba(255, 255, 255, 0.92);
-  box-shadow: 0 8rpx 24rpx rgba(15, 23, 42, 0.08);
+  border: 2rpx solid rgba(233, 237, 243, 0.6);
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 6rpx 16rpx rgba(16, 24, 40, 0.06);
+  transition: all 0.3s ease;
 }
 
 .startup-content {
@@ -64,19 +65,19 @@
 .startup-badge {
   padding: 4rpx 16rpx;
   border-radius: 8rpx;
-  background: rgba(37, 99, 235, 0.1);
+  background: rgba(0, 51, 103, 0.1);
 }
 
 .startup-badge-text {
   display: block;
-  color: #2563eb;
+  color: #003367;
   font-size: 20rpx;
   font-weight: 700;
   line-height: 1.3;
 }
 
 .startup-title {
-  color: #0f172a;
+  color: #111827;
   font-size: 36rpx;
   font-weight: 700;
   line-height: 1.35;
@@ -92,7 +93,7 @@
   width: 96rpx;
   height: 96rpx;
   border-radius: 999rpx;
-  background: rgba(245, 158, 11, 0.12);
+  background: rgba(245, 158, 11, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,9 +107,9 @@
 
 .startup-desc {
   flex: 1;
-  color: #64748b;
+  color: #6b7280;
   font-size: 28rpx;
-  line-height: 1.6;
+  line-height: 1.625;
 }
 
 .startup-btn {
@@ -116,12 +117,16 @@
   height: 80rpx;
   border-radius: 12rpx;
   border: 0;
-  background: #2563eb;
+  background: #003367;
   color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12rpx;
+  gap: 16rpx;
+  font-size: 28rpx;
+  font-weight: 600;
+  box-shadow: 0 2rpx 8rpx rgba(15, 23, 42, 0.08);
+  transition: all 0.3s ease;
 }
 
 .startup-btn::after {
@@ -137,5 +142,6 @@
 .startup-btn-icon {
   width: 32rpx;
   height: 32rpx;
+  margin-left: 6rpx;
 }
 </style>

@@ -39,17 +39,23 @@ const currentPolicies = computed(() => policyMap[activeTab.value] || []);
 const setTab = (index) => {
   activeTab.value = index;
 };
+
+const openPolicyList = () => {
+  uni.navigateTo({
+    url: `/package-invest/pages/policy-list/index?tab=${activeTab.value}`,
+  });
+};
 </script>
 
 <template>
   <view class="policies-wrap">
     <view class="policies-head">
       <text class="policies-title">配套政策</text>
-      <view class="head-btn">
+      <view class="head-btn" @tap="openPolicyList">
         <text class="head-btn-text">全部政策</text>
         <image
           class="head-btn-icon"
-          src="/static/icons/park-policies/chevron-right.png"
+          :src="'/package-invest/static/icons/park-policies/chevron-right.png'"
           mode="aspectFit"
         />
       </view>
@@ -96,11 +102,11 @@ const setTab = (index) => {
       </view>
     </view>
 
-    <view class="more-btn">
+    <view class="more-btn" @tap="openPolicyList">
       <text class="more-btn-text">了解更多政策详情</text>
       <image
         class="more-btn-icon"
-        src="/static/icons/park-policies/arrow-right.png"
+        :src="'/package-invest/static/icons/park-policies/arrow-right.png'"
         mode="aspectFit"
       />
     </view>

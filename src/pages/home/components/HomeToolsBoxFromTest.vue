@@ -86,7 +86,7 @@ const tools = [
   width: 80rpx;
   height: 80rpx;
   border-radius: 16rpx;
-  background: rgba(37, 99, 235, 0.1);
+  background: rgba(0, 51, 103, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,8 +95,8 @@ const tools = [
 }
 
 .tool-icon {
-  width: 48rpx;
-  height: 48rpx;
+  width: 40rpx;
+  height: 40rpx;
   display: block;
   margin: 0 auto;
   object-fit: contain;

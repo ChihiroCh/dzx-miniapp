@@ -55,7 +55,7 @@ const factories = [
             <view class="meta-row">
               <image
                 class="meta-icon"
-                src="/static/icons/park-factories/maximize-2.png"
+                :src="'/package-invest/static/icons/park-factories/maximize-2.png'"
                 mode="aspectFit"
               />
               <text>{{ item.spec }}</text>
@@ -63,7 +63,7 @@ const factories = [
             <view class="meta-row">
               <image
                 class="meta-icon"
-                src="/static/icons/park-factories/zap.png"
+                :src="'/package-invest/static/icons/park-factories/zap.png'"
                 mode="aspectFit"
               />
               <text>{{ item.power }}</text>
@@ -76,7 +76,7 @@ const factories = [
               <text class="detail-btn-text">查看详情</text>
               <image
                 class="detail-btn-icon"
-                src="/static/icons/park-factories/chevron-right.png"
+                :src="'/package-invest/static/icons/park-factories/chevron-right.png'"
                 mode="aspectFit"
               />
             </view>

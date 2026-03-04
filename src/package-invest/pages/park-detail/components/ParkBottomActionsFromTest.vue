@@ -4,7 +4,7 @@
       <view class="ai-btn">
         <image
           class="ai-btn-icon"
-          src="/static/icons/park-bottom-actions/message-circle.png"
+          :src="'/package-invest/static/icons/park-bottom-actions/message-circle.png'"
           mode="aspectFit"
         />
         <text class="ai-btn-text">咨询 AI 选址</text>
@@ -14,7 +14,7 @@
         <view class="sub-btn">
           <image
             class="sub-btn-icon"
-            src="/static/icons/park-bottom-actions/phone.png"
+            :src="'/package-invest/static/icons/park-bottom-actions/phone.png'"
             mode="aspectFit"
           />
           <text class="sub-btn-text">联系招商</text>
@@ -22,7 +22,7 @@
         <view class="sub-btn sub-btn-secondary">
           <image
             class="sub-btn-icon sub-btn-icon-strong"
-            src="/static/icons/park-bottom-actions/clipboard-pen.png"
+            :src="'/package-invest/static/icons/park-bottom-actions/clipboard-pen.png'"
             mode="aspectFit"
           />
           <text class="sub-btn-text sub-btn-text-strong">项目入驻</text>

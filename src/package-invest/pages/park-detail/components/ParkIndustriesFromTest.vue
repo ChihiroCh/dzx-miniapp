@@ -27,14 +27,14 @@ const setActiveTab = (index) => {
       <view class="position-content">
         <view class="position-header">
           <view class="position-icon-wrap">
-            <image class="position-icon" src="/static/icons/park-industries/target.png" mode="aspectFit" />
+            <image class="position-icon" :src="'/package-invest/static/icons/park-industries/target.png'" mode="aspectFit" />
           </view>
           <text class="position-title">产业定位</text>
         </view>
 
         <view class="position-grid">
           <view v-for="(item, index) in positioningList" :key="`pos-${index}`" class="position-item">
-            <image class="position-item-icon" src="/static/icons/park-industries/shield-check.png" mode="aspectFit" />
+            <image class="position-item-icon" :src="'/package-invest/static/icons/park-industries/shield-check.png'" mode="aspectFit" />
             <text class="position-item-text">{{ item }}</text>
           </view>
         </view>

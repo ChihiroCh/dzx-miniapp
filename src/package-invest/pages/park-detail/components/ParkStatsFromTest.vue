@@ -3,22 +3,22 @@ const stats = [
   {
     label: "产业总值",
     value: "2025年 xxx亿元",
-    icon: "/static/icons/park-stats/trending-up.png",
+    icon: "/package-invest/static/icons/park-stats/trending-up.png",
   },
   {
     label: "产业企业",
     value: "1200+ 家",
-    icon: "/static/icons/park-stats/building-2.png",
+    icon: "/package-invest/static/icons/park-stats/building-2.png",
   },
   {
     label: "同比增长",
     value: "+18%",
-    icon: "/static/icons/park-stats/chart-column.png",
+    icon: "/package-invest/static/icons/park-stats/chart-column.png",
   },
   {
     label: "从业人数",
     value: "5万+ 人",
-    icon: "/static/icons/park-stats/users.png",
+    icon: "/package-invest/static/icons/park-stats/users.png",
   },
 ];
 </script>

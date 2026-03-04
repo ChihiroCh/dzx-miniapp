@@ -1,14 +1,14 @@
 <script setup>
 const services = [
-  { name: "企业登记", icon: "/static/icons/park-enterprise-services/user-plus.png" },
-  { name: "银行开户", icon: "/static/icons/park-enterprise-services/credit-card.png" },
-  { name: "人才服务", icon: "/static/icons/park-enterprise-services/user-check.png" },
-  { name: "环评服务", icon: "/static/icons/park-enterprise-services/leaf.png" },
-  { name: "政策解答", icon: "/static/icons/park-enterprise-services/circle-question-mark.png" },
-  { name: "产业推荐", icon: "/static/icons/park-enterprise-services/zap.png" },
-  { name: "融资租赁", icon: "/static/icons/park-enterprise-services/coins.png" },
-  { name: "知识产权", icon: "/static/icons/park-enterprise-services/file-text.png" },
-  { name: "法律服务", icon: "/static/icons/park-enterprise-services/scale.png" },
+  { name: "企业登记", icon: "/package-invest/static/icons/park-enterprise-services/user-plus.png" },
+  { name: "银行开户", icon: "/package-invest/static/icons/park-enterprise-services/credit-card.png" },
+  { name: "人才服务", icon: "/package-invest/static/icons/park-enterprise-services/user-check.png" },
+  { name: "环评服务", icon: "/package-invest/static/icons/park-enterprise-services/leaf.png" },
+  { name: "政策解答", icon: "/package-invest/static/icons/park-enterprise-services/circle-question-mark.png" },
+  { name: "产业推荐", icon: "/package-invest/static/icons/park-enterprise-services/zap.png" },
+  { name: "融资租赁", icon: "/package-invest/static/icons/park-enterprise-services/coins.png" },
+  { name: "知识产权", icon: "/package-invest/static/icons/park-enterprise-services/file-text.png" },
+  { name: "法律服务", icon: "/package-invest/static/icons/park-enterprise-services/scale.png" },
 ];
 </script>
 
@@ -18,7 +18,7 @@ const services = [
       <text class="enterprise-title">配套企服</text>
       <view class="head-more-btn">
         <text class="head-more-text">查看全部</text>
-        <image class="head-more-icon" src="/static/icons/park-enterprise-services/chevron-right.png" mode="aspectFit" />
+        <image class="head-more-icon" :src="'/package-invest/static/icons/park-enterprise-services/chevron-right.png'" mode="aspectFit" />
       </view>
     </view>
 

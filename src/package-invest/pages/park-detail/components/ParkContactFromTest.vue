@@ -16,7 +16,7 @@ const contact = {
       <view class="contact-header">
         <view class="manager-row">
           <view class="avatar-box">
-            <image class="avatar-icon" src="/static/icons/park-contact/user.png" mode="aspectFit" />
+            <image class="avatar-icon" :src="'/package-invest/static/icons/park-contact/user.png'" mode="aspectFit" />
           </view>
           <view class="manager-info">
             <text class="manager-name">{{ contact.name }}</text>
@@ -28,11 +28,11 @@ const contact = {
       <view class="contact-content">
         <view class="contact-btn-list">
           <view class="contact-btn">
-            <image class="btn-icon" src="/static/icons/park-contact/message-circle.png" mode="aspectFit" />
+            <image class="btn-icon" :src="'/package-invest/static/icons/park-contact/message-circle.png'" mode="aspectFit" />
             <text class="btn-text">{{ contact.wechat }}</text>
           </view>
           <view class="contact-btn">
-            <image class="btn-icon" src="/static/icons/park-contact/phone.png" mode="aspectFit" />
+            <image class="btn-icon" :src="'/package-invest/static/icons/park-contact/phone.png'" mode="aspectFit" />
             <text class="btn-text">{{ contact.phone }}</text>
           </view>
         </view>

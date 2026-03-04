@@ -12,50 +12,22 @@
       </view>
     </view>
 
-    <view class="grid grid-cols-2 gap-3">
-      <view class="rounded-lg border text-card-foreground shadow-sm bg-primary-foreground-10 border-primary-foreground-20 backdrop-blur-sm">
+    <view class="feature-cards">
+      <view class="feature-card rounded-lg border text-card-foreground shadow-sm bg-primary-foreground-10 border-primary-foreground-20 backdrop-blur-sm">
         <view class="p-3 flex items-start gap-2">
-          <view class="flex-shrink-0 mt-0_5 text-primary-foreground">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-                <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
-            </svg>
+          <view class="flex-shrink-0 mt-0_5">
+            <image class="feature-icon" src="/static/icons/brand-header/cloud-white.png" mode="aspectFit" />
           </view>
-          <text class="text-xs text-primary-foreground leading-tight">数字化厂房服务方案提供商</text>
+          <text class="text-xs text-primary-foreground leading-tight feature-text-wrap">数字化厂房服务方案提供商</text>
         </view>
       </view>
 
-      <view class="rounded-lg border text-card-foreground shadow-sm bg-primary-foreground-10 border-primary-foreground-20 backdrop-blur-sm">
+      <view class="feature-card rounded-lg border text-card-foreground shadow-sm bg-primary-foreground-10 border-primary-foreground-20 backdrop-blur-sm">
         <view class="p-3 flex items-start gap-2">
-          <view class="flex-shrink-0 mt-0_5 text-primary-foreground">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="M10 12h4"></path>
-              <path d="M10 8h4"></path>
-              <path d="M14 21v-3a2 2 0 0 0-4 0v3"></path>
-              <path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2"></path>
-              <path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16"></path>
-            </svg>
+          <view class="flex-shrink-0 mt-0_5">
+            <image class="feature-icon" src="/static/icons/brand-header/building-2-white.png" mode="aspectFit" />
           </view>
-          <text class="text-xs text-primary-foreground leading-tight">园区直属服务经纪人</text>
+          <text class="text-xs text-primary-foreground leading-tight feature-text-single-line feature-text-right-pad">园区直属服务经纪人</text>
         </view>
       </view>
     </view>
@@ -136,6 +108,19 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.feature-cards {
+  width: 100%;
+  max-width: 686rpx;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24rpx;
+}
+
+.feature-card {
+  min-width: 0;
+}
+
 .w-12 {
   width: 96rpx;
 }
@@ -191,6 +176,27 @@
 
 .mt-0_5 {
   margin-top: 4rpx;
+}
+
+.feature-icon {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.feature-text-single-line {
+  font-size: 20rpx;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.feature-text-wrap {
+  font-size: 24rpx;
+  line-height: 1.25;
+  white-space: normal;
+}
+
+.feature-text-right-pad {
+  padding-right: 16rpx;
 }
 
 .text-2xl {

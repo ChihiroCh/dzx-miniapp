@@ -51,7 +51,7 @@ const basicInfoList = computed(() => [
   {
     label: "层高",
     value: props.factoryData?.height || "6 m",
-    icon: "/static/icons/factory-list/maximize-2.png",
+    icon: "/package-invest/static/icons/factory-list/maximize-2.png",
   },
   {
     label: "承重",
@@ -61,22 +61,22 @@ const basicInfoList = computed(() => [
   {
     label: "柱距",
     value: "8m x 9m",
-    icon: "/static/icons/factory-list/layers.png",
+    icon: "/package-invest/static/icons/factory-list/layers.png",
   },
   {
     label: "配电",
     value: props.factoryData?.power || "200 KVA",
-    icon: "/static/icons/factory-list/zap.png",
+    icon: "/package-invest/static/icons/factory-list/zap.png",
   },
   {
     label: "消防等级",
     value: "丙类",
-    icon: "/static/icons/park-enterprise-services/circle-question-mark.png",
+    icon: "/package-invest/static/icons/park-enterprise-services/circle-question-mark.png",
   },
   {
     label: "用水",
     value: "进出水口",
-    icon: "/static/icons/park-enterprise-services/leaf.png",
+    icon: "/package-invest/static/icons/park-enterprise-services/leaf.png",
   },
   {
     label: "天然气",
@@ -86,12 +86,12 @@ const basicInfoList = computed(() => [
   {
     label: "蒸汽",
     value: "无供应",
-    icon: "/static/icons/park-enterprise-services/zap.png",
+    icon: "/package-invest/static/icons/park-enterprise-services/zap.png",
   },
   {
     label: "货梯",
     value: "2吨货梯(2部)",
-    icon: "/static/icons/park-stats/trending-up.png",
+    icon: "/package-invest/static/icons/park-stats/trending-up.png",
   },
   {
     label: "结构",
@@ -139,41 +139,41 @@ const floorRows = [
 ];
 
 const featureList = [
-  { name: "带装修", icon: "/static/icons/factory-feature/palette-accent.png" },
-  { name: "双路供电", icon: "/static/icons/factory-feature/zap-accent.png" },
-  { name: "卸货平台", icon: "/static/icons/factory-feature/truck-accent.png" },
+  { name: "带装修", icon: "/package-invest/static/icons/factory-feature/palette-accent.png" },
+  { name: "双路供电", icon: "/package-invest/static/icons/factory-feature/zap-accent.png" },
+  { name: "卸货平台", icon: "/package-invest/static/icons/factory-feature/truck-accent.png" },
 ];
 
 const leaseItems = computed(() => [
   {
     label: "租售类型",
     value: "仅出租",
-    icon: "/static/icons/park-enterprise-services/scale.png",
+    icon: "/package-invest/static/icons/lease-detail/tags-primary.png",
   },
   {
     label: "租金单价",
     value: `${rentNum.value} 元/㎡/月`,
-    icon: "/static/icons/park-enterprise-services/coins.png",
+    icon: "/package-invest/static/icons/lease-detail/dollar-sign-primary.png",
   },
   {
     label: "付款方式",
     value: "付三押三",
-    icon: "/static/icons/park-enterprise-services/credit-card.png",
+    icon: "/package-invest/static/icons/lease-detail/credit-card-primary.png",
   },
   {
     label: "押金方式",
     value: "三个月租金",
-    icon: "/static/icons/park-enterprise-services/scale.png",
+    icon: "/package-invest/static/icons/lease-detail/shield-check-primary.png",
   },
   {
     label: "是否含物业",
     value: "否",
-    icon: "/static/icons/park-enterprise-services/user-check.png",
+    icon: "/package-invest/static/icons/lease-detail/clipboard-check-primary.png",
   },
   {
     label: "物业费用",
     value: "3.5 元/㎡/月",
-    icon: "/static/icons/park-enterprise-services/file-text.png",
+    icon: "/package-invest/static/icons/lease-detail/receipt-primary.png",
   },
 ]);
 
@@ -182,28 +182,28 @@ const suitableIndustries = ["集成电路", "电子信息", "精密仪器"];
 const amenitiesPageIndex = ref(0);
 const amenitiesPages = [
   [
-    { name: "公寓", icon: "/static/tabbar/home.png" },
-    { name: "地铁", icon: "/static/icons/home-tools/compass.png" },
-    { name: "公交", icon: "/static/icons/industry/car-front.png" },
-    { name: "餐饮", icon: "/static/icons/home-tools/book-open.png" },
-    { name: "停车", icon: "/static/icons/industry/car.png" },
-    { name: "安防", icon: "/static/icons/home-advantages/shield-check.png" },
-    { name: "物业", icon: "/static/icons/park-enterprise-services/user-check.png" },
-    { name: "快递", icon: "/static/icons/industry/truck.png" },
-    { name: "绿化", icon: "/static/icons/industry/wind.png" },
-    { name: "消防", icon: "/static/icons/park-enterprise-services/circle-question-mark.png" },
+    { name: "公寓", icon: "/package-invest/static/icons/amenities-original/amenity-01.png" },
+    { name: "地铁", icon: "/package-invest/static/icons/amenities-original/amenity-02.png" },
+    { name: "公交", icon: "/package-invest/static/icons/amenities-original/amenity-03.png" },
+    { name: "食堂", icon: "/package-invest/static/icons/amenities-original/amenity-04.png" },
+    { name: "宿舍", icon: "/package-invest/static/icons/amenities-original/amenity-05.png" },
+    { name: "会议室", icon: "/package-invest/static/icons/amenities-original/amenity-06.png" },
+    { name: "停车位", icon: "/package-invest/static/icons/amenities-original/amenity-07.png" },
+    { name: "地下车库", icon: "/package-invest/static/icons/amenities-original/amenity-08.png" },
+    { name: "充电桩", icon: "/package-invest/static/icons/amenities-original/amenity-09.png" },
+    { name: "商业街", icon: "/package-invest/static/icons/amenities-original/amenity-10.png" },
   ],
   [
-    { name: "便利店", icon: "/static/icons/home-tools/download.png" },
-    { name: "会议室", icon: "/static/icons/home-tools/briefcase.png" },
-    { name: "食堂", icon: "/static/icons/industry/stethoscope.png" },
-    { name: "金融", icon: "/static/icons/park-enterprise-services/credit-card.png" },
-    { name: "政策", icon: "/static/icons/park-policies/arrow-right.png" },
-    { name: "客服", icon: "/static/icons/park-contact/user.png" },
-    { name: "供电", icon: "/static/icons/factory-list/zap.png" },
-    { name: "物流", icon: "/static/icons/industry/truck.png" },
-    { name: "园医", icon: "/static/icons/industry/stethoscope.png" },
-    { name: "更多", icon: "/static/icons/park-policies/chevron-right.png" },
+    { name: "卸货月台", icon: "/package-invest/static/icons/amenities-original/amenity-11.png" },
+    { name: "蒸汽管道", icon: "/package-invest/static/icons/amenities-original/amenity-12.png" },
+    { name: "配电房", icon: "/package-invest/static/icons/amenities-original/amenity-13.png" },
+    { name: "天然气", icon: "/package-invest/static/icons/amenities-original/amenity-14.png" },
+    { name: "安保", icon: "/package-invest/static/icons/amenities-original/amenity-15.png" },
+    { name: "宽带", icon: "/package-invest/static/icons/amenities-original/amenity-16.png" },
+    { name: "供水", icon: "/package-invest/static/icons/amenities-original/amenity-17.png" },
+    { name: "排污", icon: "/package-invest/static/icons/amenities-original/amenity-18.png" },
+    { name: "绿化", icon: "/package-invest/static/icons/amenities-original/amenity-19.png" },
+    { name: "消防", icon: "/package-invest/static/icons/amenities-original/amenity-20.png" },
   ],
 ];
 
@@ -228,6 +228,123 @@ const locationTabs = [
   { id: "railway", label: "高铁地图" },
   { id: "bus", label: "公交线路" },
 ];
+const expresswayList = [
+  {
+    name: "S20 外环高速",
+    distance: "距离最近入口约 1.5km",
+    duration: "驱动 5分钟",
+    icon: "/package-invest/static/icons/amenities-original/amenity-11.png",
+  },
+  {
+    name: "G1503 郊环高速",
+    distance: "距离最近入口约 3.2km",
+    duration: "驱动 8分钟",
+    icon: "/package-invest/static/icons/amenities-original/amenity-11.png",
+  },
+];
+const railwayList = [
+  {
+    name: "上海浦东高铁站",
+    subtitle: "战略级交通枢纽",
+    distance: "约 12km",
+    icon: "/package-invest/static/icons/location-tabs/train-front-secondary.png",
+    theme: "secondary",
+  },
+  {
+    name: "地铁2号线 - 张江高科站",
+    subtitle: "直达陆家嘴/虹桥枢纽",
+    distance: "约 2.0km",
+    icon: "/package-invest/static/icons/location-tabs/circle-primary.png",
+    theme: "primary",
+  },
+];
+const busList = [
+  { name: "1029路", note: "园区门口设站" },
+  { name: "1090路", note: "园区门口设站" },
+  { name: "浦东12路", note: "园区门口设站" },
+  { name: "张江1路", note: "园区门口设站" },
+];
+
+const showVisitDialog = ref(false);
+const visitForm = ref({
+  company: "",
+  contact: "",
+  phone: "",
+  visitors: "",
+  time: "",
+  intent: "",
+});
+
+const openVisitDialog = () => {
+  showVisitDialog.value = true;
+};
+
+const closeVisitDialog = () => {
+  showVisitDialog.value = false;
+};
+
+const submitVisitDialog = () => {
+  uni.showToast({
+    title: "预约已提交",
+    icon: "success",
+  });
+  showVisitDialog.value = false;
+};
+
+const onVisitDateChange = (event) => {
+  visitForm.value.time = event?.detail?.value || "";
+};
+
+const stopTouchMove = () => {};
+
+const DEFAULT_PARK_PHONE = "4000000000";
+
+const pickPhoneFromFactoryData = () => {
+  const data = props.factoryData || {};
+  const candidates = [
+    data.phone,
+    data.tel,
+    data.mobile,
+    data.contactPhone,
+    data.contact_phone,
+    data["联系电话"],
+    data["招商电话"],
+  ];
+  const raw = candidates.find((item) => typeof item === "string" && item.trim());
+  if (!raw) {
+    return DEFAULT_PARK_PHONE;
+  }
+  const normalized = raw.replace(/[^\d+]/g, "");
+  return normalized || DEFAULT_PARK_PHONE;
+};
+
+const callParkPhone = () => {
+  uni.makePhoneCall({
+    phoneNumber: pickPhoneFromFactoryData(),
+    fail: () => {
+      uni.showToast({
+        title: "拨号失败",
+        icon: "none",
+      });
+    },
+  });
+};
+
+const openAiChat = () => {
+  const params = [];
+  const factoryId = props.factoryData?.id;
+  const factoryName = props.factoryData?.name;
+  if (factoryId) {
+    params.push(`factoryId=${encodeURIComponent(factoryId)}`);
+  }
+  if (factoryName) {
+    params.push(`factoryName=${encodeURIComponent(factoryName)}`);
+  }
+  const query = params.length ? `?${params.join("&")}` : "";
+  uni.navigateTo({
+    url: `/package-invest/pages/ai-chat/index${query}`,
+  });
+};
 
 const toPrev = () => {
   if (!carouselImages.value.length) {
@@ -405,7 +522,7 @@ onUnmounted(() => {
 
       <view class="media-tab-row">
         <view class="media-tab">
-          <image class="media-tab-icon" src="/static/icons/park-banner/play.png" mode="aspectFit" />
+          <image class="media-tab-icon" :src="'/package-invest/static/icons/park-banner/play.png'" mode="aspectFit" />
           <text class="media-tab-text">视频</text>
         </view>
         <view class="media-tab">
@@ -413,7 +530,7 @@ onUnmounted(() => {
           <text class="media-tab-text">全景</text>
         </view>
         <view class="media-tab media-tab-active">
-          <image class="media-tab-icon" src="/static/icons/park-banner/image.png" mode="aspectFit" />
+          <image class="media-tab-icon" :src="'/package-invest/static/icons/park-banner/image.png'" mode="aspectFit" />
           <text class="media-tab-text">图片</text>
         </view>
       </view>
@@ -544,7 +661,7 @@ onUnmounted(() => {
     <view class="rent-card">
       <view class="rent-card-head">
         <text class="rent-card-title">租金信息</text>
-        <image class="rent-card-icon" src="/static/icons/park-enterprise-services/credit-card.png" mode="aspectFit" />
+        <image class="rent-card-icon" :src="'/package-invest/static/icons/lease-detail/dollar-sign-primary.png'" mode="aspectFit" />
       </view>
       <view class="rent-line">
         <text class="rent-line-label">单价</text>
@@ -561,14 +678,14 @@ onUnmounted(() => {
         <text class="rent-line-value">{{ money(yearlyRent) }}</text>
       </view>
       <view class="rent-calc-btn">
-        <image class="rent-calc-icon" src="/static/icons/home-tools/calculator.png" mode="aspectFit" />
+        <image class="rent-calc-icon" :src="'/package-invest/static/icons/rent/calculator-foreground.png'" mode="aspectFit" />
         <text class="rent-calc-text">详细租金计算</text>
       </view>
     </view>
 
     <view class="section-card park-card">
       <view class="park-head">
-        <image class="park-head-icon" src="/static/icons/park-stats/building-2.png" mode="aspectFit" />
+        <image class="park-head-icon" :src="'/package-invest/static/icons/park-stats/building-2.png'" mode="aspectFit" />
         <text class="park-head-title">所属园区</text>
       </view>
       <view class="park-name-wrap">
@@ -584,7 +701,7 @@ onUnmounted(() => {
         </view>
       </view>
       <view class="park-detail-btn">
-        <image class="park-detail-btn-icon" src="/static/icons/park-policies/arrow-right.png" mode="aspectFit" />
+        <image class="park-detail-btn-icon" :src="'/package-invest/static/icons/park-policies/arrow-right.png'" mode="aspectFit" />
         <text class="park-detail-btn-text">查看园区详情</text>
       </view>
     </view>
@@ -698,25 +815,181 @@ onUnmounted(() => {
           <text class="location-info-text">上海市浦东新区张江科学城</text>
         </view>
 
-        <view class="location-empty" v-if="locationTab !== 'coords'">
-          <text>{{ locationTabs.find((item) => item.id === locationTab)?.label }} 信息完善中</text>
+        <view class="expressway-list" v-if="locationTab === 'expressway'">
+          <view class="expressway-item" v-for="item in expresswayList" :key="item.name">
+            <view class="expressway-left">
+              <view class="expressway-icon-wrap location-list-icon-wrap">
+                <image class="expressway-icon location-list-icon" :src="item.icon" mode="aspectFit" />
+              </view>
+              <view class="expressway-meta">
+                <text class="expressway-name">{{ item.name }}</text>
+                <text class="expressway-distance">{{ item.distance }}</text>
+              </view>
+            </view>
+            <text class="expressway-duration">{{ item.duration }}</text>
+          </view>
+        </view>
+
+        <view class="railway-list" v-if="locationTab === 'railway'">
+          <view class="railway-item" v-for="item in railwayList" :key="item.name">
+            <view class="railway-left">
+              <view
+                class="railway-icon-wrap location-list-icon-wrap"
+                :class="
+                  item.theme === 'secondary'
+                    ? 'railway-icon-wrap-secondary'
+                    : 'railway-icon-wrap-primary'
+                "
+              >
+                <image class="railway-icon location-list-icon" :src="item.icon" mode="aspectFit" />
+              </view>
+              <view class="railway-meta">
+                <text class="railway-name">{{ item.name }}</text>
+                <text class="railway-subtitle">{{ item.subtitle }}</text>
+              </view>
+            </view>
+            <text
+              class="railway-distance"
+              :class="
+                item.theme === 'secondary'
+                  ? 'railway-distance-secondary'
+                  : 'railway-distance-primary'
+              "
+              >{{ item.distance }}</text
+            >
+          </view>
+        </view>
+
+        <view class="bus-list" v-if="locationTab === 'bus'">
+          <view class="bus-item" v-for="item in busList" :key="item.name">
+            <view class="bus-item-left">
+              <view class="bus-icon-wrap">
+                <image class="bus-icon" :src="'/package-invest/static/icons/amenities-original/amenity-03.png'" mode="aspectFit" />
+              </view>
+              <view class="bus-meta">
+                <text class="bus-name">{{ item.name }}</text>
+                <text class="bus-note">{{ item.note }}</text>
+              </view>
+            </view>
+            <image class="bus-arrow" src="/static/icons/chevron-right.png" mode="aspectFit" />
+          </view>
         </view>
       </view>
     </view>
 
     <view class="bottom-actions-fixed">
       <view class="bottom-actions-inner">
-        <view class="bottom-btn bottom-btn-ai">
-          <image class="bottom-btn-icon" src="/static/icons/park-contact/message-circle.png" mode="aspectFit" />
+        <view class="bottom-btn bottom-btn-ai" @tap="openAiChat">
+          <image class="bottom-btn-icon" :src="'/package-invest/static/icons/factory-footer/message-circle-primary.png'" mode="aspectFit" />
           <text class="bottom-btn-text bottom-btn-text-ai">咨询AI</text>
         </view>
-        <view class="bottom-btn bottom-btn-visit">
-          <image class="bottom-btn-icon" src="/static/icons/home-tools/briefcase.png" mode="aspectFit" />
+        <view class="bottom-btn bottom-btn-visit" @tap="openVisitDialog">
+          <image class="bottom-btn-icon" :src="'/package-invest/static/icons/factory-footer/calendar-secondary.png'" mode="aspectFit" />
           <text class="bottom-btn-text bottom-btn-text-visit">预约参观</text>
         </view>
-        <view class="bottom-btn bottom-btn-link">
-          <image class="bottom-btn-icon bottom-btn-icon-light" src="/static/icons/park-contact/phone.png" mode="aspectFit" />
+        <view class="bottom-btn bottom-btn-link" @tap="callParkPhone">
+          <image class="bottom-btn-icon bottom-btn-icon-light" :src="'/package-invest/static/icons/factory-footer/phone-primary.png'" mode="aspectFit" />
           <text class="bottom-btn-text bottom-btn-text-link">园区直联</text>
+        </view>
+      </view>
+    </view>
+
+    <view
+      class="visit-dialog-mask"
+      v-if="showVisitDialog"
+      @tap="closeVisitDialog"
+      @touchmove.stop.prevent="stopTouchMove"
+    >
+      <view class="visit-dialog-panel" @tap.stop @touchmove.stop.prevent="stopTouchMove">
+        <view class="visit-dialog-head">
+          <text class="visit-dialog-title">预约厂房参观</text>
+        </view>
+
+        <view class="visit-dialog-body">
+          <view class="visit-form-item">
+            <text class="visit-form-label">公司名称</text>
+            <input
+              class="visit-form-input"
+              v-model="visitForm.company"
+              placeholder="请输入您的公司名称"
+              placeholder-class="visit-form-placeholder"
+            />
+          </view>
+
+          <view class="visit-form-grid">
+            <view class="visit-form-item">
+              <text class="visit-form-label">联系人</text>
+              <input
+                class="visit-form-input"
+                v-model="visitForm.contact"
+                placeholder="姓名"
+                placeholder-class="visit-form-placeholder"
+              />
+            </view>
+            <view class="visit-form-item">
+              <text class="visit-form-label">联系电话</text>
+              <input
+                class="visit-form-input"
+                v-model="visitForm.phone"
+                type="number"
+                placeholder="手机号"
+                placeholder-class="visit-form-placeholder"
+              />
+            </view>
+          </view>
+
+          <view class="visit-form-grid">
+            <view class="visit-form-item">
+              <text class="visit-form-label">来访人数</text>
+              <input
+                class="visit-form-input"
+                v-model="visitForm.visitors"
+                type="number"
+                placeholder="预计人数"
+                placeholder-class="visit-form-placeholder"
+              />
+            </view>
+            <view class="visit-form-item">
+              <text class="visit-form-label">来访时间</text>
+              <picker mode="date" :value="visitForm.time" @change="onVisitDateChange">
+                <view class="visit-form-picker">
+                  <text
+                    class="visit-form-picker-value"
+                    :class="{ 'visit-form-picker-placeholder': !visitForm.time }"
+                    >{{ visitForm.time || "请选择日期" }}</text
+                  >
+                  <image
+                    class="visit-form-picker-icon"
+                    :src="'/package-invest/static/icons/factory-footer/calendar-secondary.png'"
+                    mode="aspectFit"
+                  />
+                </view>
+              </picker>
+            </view>
+          </view>
+
+          <view class="visit-form-item">
+            <text class="visit-form-label">来访意图</text>
+            <textarea
+              class="visit-form-textarea"
+              v-model="visitForm.intent"
+              placeholder="请简单描述您的考察重点（如：电力需求、装修政策等）"
+              placeholder-class="visit-form-placeholder"
+            />
+          </view>
+        </view>
+
+        <view class="visit-dialog-actions">
+          <view class="visit-action-btn visit-action-close" @tap="closeVisitDialog">
+            <text class="visit-action-close-text">关闭</text>
+          </view>
+          <view class="visit-action-btn visit-action-submit" @tap="submitVisitDialog">
+            <text class="visit-action-submit-text">提交预约</text>
+          </view>
+        </view>
+
+        <view class="visit-dialog-x" @tap="closeVisitDialog">
+          <text class="visit-dialog-x-text">×</text>
         </view>
       </view>
     </view>
@@ -726,7 +999,7 @@ onUnmounted(() => {
 <style scoped>
 .from-test-wrap {
   margin-top: 0;
-  padding: 0 0 220rpx;
+  padding: 0 0 calc(220rpx + env(safe-area-inset-bottom));
   display: flex;
   flex-direction: column;
   row-gap: 32rpx;
@@ -1369,29 +1642,29 @@ onUnmounted(() => {
 }
 
 .suitable-chip {
-  height: 44rpx;
   border-radius: 999rpx;
-  padding: 0 18rpx;
-  background: rgba(0, 51, 103, 0.1);
-  color: #003367;
+  padding: 8rpx 24rpx;
+  background: rgba(245, 158, 11, 0.1);
+  color: #f59e0b;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 20rpx;
+  font-size: 24rpx;
+  line-height: 1;
   font-weight: 500;
 }
 
 .amenity-swiper {
-  height: 280rpx;
+  height: 352rpx;
 }
 
 .amenity-page {
-  padding: 8rpx 24rpx 12rpx;
+  padding: 24rpx;
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  row-gap: 20rpx;
+  row-gap: 40rpx;
 }
 
 .amenity-item {
@@ -1399,14 +1672,14 @@ onUnmounted(() => {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 8rpx;
+  gap: 12rpx;
 }
 
 .amenity-icon-wrap {
   width: 80rpx;
   height: 80rpx;
   border-radius: 999rpx;
-  background: rgba(0, 51, 103, 0.06);
+  background: rgba(0, 51, 103, 0.05);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1418,7 +1691,7 @@ onUnmounted(() => {
 }
 
 .amenity-text {
-  font-size: 18rpx;
+  font-size: 22rpx;
   color: #6b7280;
   font-weight: 500;
 }
@@ -1584,6 +1857,227 @@ onUnmounted(() => {
   font-weight: 500;
 }
 
+.expressway-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32rpx;
+}
+
+.expressway-item {
+  min-height: 112rpx;
+  border-radius: 24rpx;
+  background: rgba(148, 163, 184, 0.08);
+  padding: 24rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.expressway-left {
+  display: flex;
+  align-items: center;
+  gap: 24rpx;
+}
+
+.location-list-icon-wrap {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 999rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.location-list-icon {
+  width: 32rpx;
+  height: 32rpx;
+  flex-shrink: 0;
+}
+
+.expressway-icon-wrap {
+  background: rgba(0, 51, 103, 0.1);
+}
+
+.expressway-icon {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.expressway-meta {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6rpx;
+}
+
+.expressway-name {
+  font-size: 24rpx;
+  line-height: 1.25;
+  color: #111827;
+  font-weight: 600;
+}
+
+.expressway-distance {
+  font-size: 20rpx;
+  line-height: 1.2;
+  color: #6b7280;
+  white-space: nowrap;
+}
+
+.expressway-duration {
+  font-size: 24rpx;
+  line-height: 1.2;
+  color: #003367;
+  font-weight: 500;
+}
+
+.railway-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32rpx;
+}
+
+.railway-item {
+  min-height: 112rpx;
+  border-radius: 16rpx;
+  background: rgba(148, 163, 184, 0.08);
+  padding: 24rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.railway-left {
+  display: flex;
+  align-items: center;
+  gap: 24rpx;
+  min-width: 0;
+}
+
+.railway-icon-wrap {
+  width: 64rpx;
+  height: 64rpx;
+}
+
+.railway-icon-wrap-secondary {
+  background: rgba(245, 158, 11, 0.1);
+}
+
+.railway-icon-wrap-primary {
+  background: rgba(0, 51, 103, 0.1);
+}
+
+.railway-icon {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.railway-meta {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4rpx;
+  min-width: 0;
+}
+
+.railway-name {
+  font-size: 24rpx;
+  line-height: 1.25;
+  color: #111827;
+  font-weight: 600;
+}
+
+.railway-subtitle {
+  font-size: 20rpx;
+  line-height: 1.2;
+  color: #6b7280;
+  white-space: nowrap;
+}
+
+.railway-distance {
+  font-size: 24rpx;
+  line-height: 1.2;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+.railway-distance-secondary {
+  color: #f59e0b;
+}
+
+.railway-distance-primary {
+  color: #003367;
+}
+
+.bus-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16rpx;
+}
+
+.bus-item {
+  min-height: 80rpx;
+  border: 1px solid #e5e7eb;
+  border-radius: 12rpx;
+  background: #ffffff;
+  padding: 16rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bus-item-left {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 24rpx;
+}
+
+.bus-icon-wrap {
+  width: 48rpx;
+  height: 48rpx;
+  border-radius: 8rpx;
+  background: rgba(148, 163, 184, 0.22);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.bus-icon {
+  width: 28rpx;
+  height: 28rpx;
+}
+
+.bus-meta {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+}
+
+.bus-name {
+  font-size: 24rpx;
+  line-height: 1.2;
+  color: #111827;
+  font-weight: 500;
+}
+
+.bus-note {
+  font-size: 20rpx;
+  line-height: 1.2;
+  color: #6b7280;
+}
+
+.bus-arrow {
+  width: 28rpx;
+  height: 28rpx;
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+
 .location-empty {
   height: 320rpx;
   border-radius: 12rpx;
@@ -1601,11 +2095,12 @@ onUnmounted(() => {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 50;
-  border-top: 1px solid #e5e7eb;
+  z-index: 999;
+  border-top: 1px solid #e8edf3;
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(12rpx);
-  padding: 16rpx 20rpx calc(16rpx + env(safe-area-inset-bottom));
+  box-shadow: 0 -8rpx 24rpx rgba(10, 46, 90, 0.08);
+  padding: 24rpx 24rpx calc(24rpx + env(safe-area-inset-bottom));
   box-sizing: border-box;
 }
 
@@ -1614,13 +2109,13 @@ onUnmounted(() => {
   max-width: 896rpx;
   margin: 0 auto;
   display: flex;
-  gap: 12rpx;
+  gap: 16rpx;
 }
 
 .bottom-btn {
   flex: 1;
   height: 88rpx;
-  border-radius: 12rpx;
+  border-radius: 20rpx;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1628,19 +2123,19 @@ onUnmounted(() => {
 }
 
 .bottom-btn-ai {
-  border: 1px solid rgba(0, 51, 103, 0.26);
-  background: #ffffff;
+  border: 1px solid rgba(0, 51, 103, 0.3);
+  background: transparent;
 }
 
 .bottom-btn-visit {
-  border: 1px solid rgba(0, 51, 103, 0.18);
-  background: rgba(0, 51, 103, 0.08);
+  border: 1px solid rgba(245, 158, 11, 0.2);
+  background: rgba(245, 158, 11, 0.1);
 }
 
 .bottom-btn-link {
-  border: 1px solid #003367;
-  background: linear-gradient(135deg, #003367 0%, #1a5d99 100%);
-  box-shadow: 0 8rpx 18rpx rgba(0, 51, 103, 0.24);
+  border: 0;
+  background: linear-gradient(135deg, #003367 0%, #004d99 100%);
+  box-shadow: 0 6rpx 16rpx rgba(10, 46, 90, 0.12);
 }
 
 .bottom-btn-icon {
@@ -1655,7 +2150,7 @@ onUnmounted(() => {
 
 .bottom-btn-text {
   margin-left: 8rpx;
-  font-size: 24rpx;
+  font-size: 26rpx;
   line-height: 1.1;
   transform: translateY(0);
   font-weight: 500;
@@ -1666,11 +2161,196 @@ onUnmounted(() => {
 }
 
 .bottom-btn-text-visit {
-  color: #003367;
+  color: #f59e0b;
 }
 
 .bottom-btn-text-link {
   color: #ffffff;
+}
+
+.visit-dialog-mask {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1200;
+  background: rgba(15, 23, 42, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+
+.visit-dialog-panel {
+  position: relative;
+  width: 710rpx;
+  height: 960rpx;
+  overflow: hidden;
+  border-radius: 24rpx;
+  background: #ffffff;
+  box-shadow: 0 24rpx 60rpx rgba(15, 23, 42, 0.16);
+  padding: 48rpx 32rpx 48rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.visit-dialog-head {
+  display: flex;
+  justify-content: center;
+}
+
+.visit-dialog-title {
+  font-size: 40rpx;
+  line-height: 1.3;
+  font-weight: 700;
+  color: #111827;
+  text-align: center;
+}
+
+.visit-dialog-body {
+  margin-top: 16rpx;
+  padding: 32rpx 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32rpx;
+}
+
+.visit-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 20rpx;
+}
+
+.visit-form-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16rpx;
+}
+
+.visit-form-label {
+  font-size: 20rpx;
+  line-height: 1.2;
+  color: #6b7280;
+  font-weight: 600;
+  letter-spacing: 1rpx;
+}
+
+.visit-form-input {
+  width: 100%;
+  height: 80rpx;
+  border-radius: 12rpx;
+  border: 2rpx solid #e5e7eb;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 0 22rpx;
+  font-size: 24rpx;
+  color: #111827;
+}
+
+.visit-form-picker {
+  width: 100%;
+  height: 80rpx;
+  border-radius: 12rpx;
+  border: 2rpx solid #e5e7eb;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 0 22rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.visit-form-picker-value {
+  font-size: 24rpx;
+  line-height: 1.2;
+  color: #111827;
+}
+
+.visit-form-picker-placeholder {
+  color: #9ca3af;
+}
+
+.visit-form-picker-icon {
+  width: 30rpx;
+  height: 30rpx;
+  flex-shrink: 0;
+}
+
+.visit-form-textarea {
+  width: 100%;
+  max-width: 100%;
+  min-height: 160rpx;
+  height: 160rpx;
+  border-radius: 12rpx;
+  border: 2rpx solid #e5e7eb;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 18rpx 22rpx;
+  font-size: 24rpx;
+  line-height: 1.45;
+  color: #111827;
+}
+
+.visit-form-placeholder {
+  color: #9ca3af;
+}
+
+.visit-dialog-actions {
+  margin-top: 16rpx;
+  margin-bottom: 0;
+  display: flex;
+  gap: 16rpx;
+}
+
+.visit-action-btn {
+  flex: 1;
+  height: 80rpx;
+  border-radius: 12rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.visit-action-close {
+  border: 2rpx solid #e5e7eb;
+  background: #ffffff;
+}
+
+.visit-action-close-text {
+  font-size: 26rpx;
+  color: #111827;
+  font-weight: 500;
+}
+
+.visit-action-submit {
+  background: linear-gradient(135deg, #003367 0%, #004d99 100%);
+}
+
+.visit-action-submit-text {
+  font-size: 26rpx;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.visit-dialog-x {
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+  width: 44rpx;
+  height: 44rpx;
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.visit-dialog-x-text {
+  font-size: 36rpx;
+  line-height: 1;
+  color: #6b7280;
 }
 
 @keyframes marker-bounce {
