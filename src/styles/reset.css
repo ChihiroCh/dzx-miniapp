@@ -1,0 +1,75 @@
+/* Uni-app compatible global reset for mini program */
+
+page {
+  margin: 0;
+  padding: 0;
+  font-size: 28rpx;
+  line-height: 1.5;
+  color: #1f2430;
+  background-color: #f5f7fb;
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', Arial,
+    sans-serif;
+}
+
+view,
+text,
+image,
+button,
+input,
+textarea,
+navigator,
+scroll-view,
+swiper,
+swiper-item,
+form,
+label,
+picker,
+picker-view,
+picker-view-column,
+switch,
+slider,
+movable-area,
+movable-view,
+cover-view,
+cover-image,
+rich-text,
+canvas,
+video {
+  box-sizing: border-box;
+}
+
+image,
+video,
+canvas {
+  display: block;
+}
+
+button,
+input,
+textarea,
+picker,
+label,
+form {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+button::after {
+  border: 0;
+}
+
+textarea {
+  width: 100%;
+}
+
+navigator,
+text {
+  color: inherit;
+}

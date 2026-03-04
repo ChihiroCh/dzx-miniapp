@@ -1,0 +1,4099 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main
+      data-source-file="src/pages/factory-detail.astro"
+      data-source-line-start="26"
+      data-source-line-end="31"
+      class="flex-1 pb-24"
+    >
+      <div
+        class="space-y-4 px-4 py-4"
+        data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+        data-source-line-start="85"
+        data-source-line-end="166"
+      >
+        <div
+          class="rounded-lg border text-card-foreground shadow-sm overflow-hidden bg-muted"
+          data-source-file="src/components/ui/card/Card.vue"
+          data-source-line-start="11"
+          data-source-line-end="20"
+        >
+          <!--[-->
+          <div
+            class="relative w-full aspect-video bg-muted"
+            data-source-file="src/components/factory-detail/FactoryImageCarousel.vue"
+            data-source-line-start="54"
+            data-source-line-end="133"
+          >
+            <img
+              src="https://spark-builder.s3.cn-north-1.amazonaws.com.cn/image/2026/2/26/873dac6c-b82d-4ef0-9948-88d88e7cb90f.png"
+              alt="张江集成电路产业园 - A3栋标准厂房"
+              class="w-full h-full object-cover transition-opacity duration-300 opacity-100"
+              data-source-file="src/components/factory-detail/FactoryImageCarousel.vue"
+              data-source-line-start="56"
+              data-source-line-end="61"
+            /><!---->
+            <div
+              class="absolute top-3 left-3 flex gap-2 z-10"
+              data-source-file="src/components/factory-detail/FactoryImageCarousel.vue"
+              data-source-line-start="70"
+              data-source-line-end="92"
+            >
+              <button
+                class="flex items-center gap-1.5 px-2.5 py-1.5 bg-black/40 hover:bg-black/60 text-white rounded-full text-[11px] backdrop-blur-sm transition-all border border-white/10"
+                data-source-file="src/components/factory-detail/FactoryImageCarousel.vue"
+                data-source-line-start="71"
+                data-source-line-end="77"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  data-source-file="src/components/common/SafeIcon.vue"
+                  data-source-line-start="41"
+                  data-source-line-end="47"
+                  class="lucide lucide-circle-play-icon lucide-circle-play"
+                >
+                  <path
+                    d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"
+                  ></path>
+                  <circle cx="12" cy="12" r="10"></circle></svg
+                ><span
+                  data-source-file="src/components/factory-detail/FactoryImageCarousel.vue"
+                  data-source-line-start="76"
+                  data-source-line-end="76"
+                  >视频</span
+                ></button
+              ><button
+                class="flex items-center gap-1.5 px-2.5 py-1.5 bg-black/40 hover:bg-black/60 text-white rounded-full text-[11px] backdrop-blur-sm transition-all border border-white/10"
+                data-source-file="src/components/factory-detail/FactoryImageCarousel.vue"
+                data-source-line-start="78"
+                data-source-line-end="84"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  data-source-file="src/components/common/SafeIcon.vue"
+                  data-source-line-start="41"
+                  data-source-line-end="47"
+                  class="lucide lucide-globe-icon lucide-globe"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path
+                    d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"
+                  ></path>
+                  <path d="M2 12h20"></path></svg
+                ><span
+                  data-source-file="src/components/factory-detail/FactoryImageCarousel.vue"
+                  data-source-line-start="83"
+                  data-source-line-end="83"
+                  >全景</span
+                ></button
+              ><button
+                class="flex items-center gap-1.5 px-2.5 py-1.5 bg-primary/80 hover:bg-primary text-white rounded-full text-[11px] backdrop-blur-sm transition-all border border-white/10"
+                data-source-file="src/components/factory-detail/FactoryImageCarousel.vue"
+                data-source-line-start="85"
+                data-source-line-end="91"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  data-source-file="src/components/common/SafeIcon.vue"
+                  data-source-line-start="41"
+                  data-source-line-end="47"
+                  class="lucide lucide-image-icon lucide-image"
+                >
+                  <rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect>
+                  <circle cx="9" cy="9" r="2"></circle>
+                  <path
+                    d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"
+                  ></path></svg
+                ><span
+                  data-source-file="src/components/factory-detail/FactoryImageCarousel.vue"
+                  data-source-line-start="90"
+                  data-source-line-end="90"
+                  >图片</span
+                >
+              </button>
+            </div>
+            <div
+              class="absolute top-3 right-3 bg-black/50 text-white px-2 py-1 rounded text-[11px] font-medium backdrop-blur-sm border border-white/10"
+              data-source-file="src/components/factory-detail/FactoryImageCarousel.vue"
+              data-source-line-start="95"
+              data-source-line-end="97"
+            >
+              1/3
+            </div>
+            <button
+              class="absolute left-2 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/60 text-white p-2 rounded-full transition-colors"
+              aria-label="上一张"
+              data-source-file="src/components/factory-detail/FactoryImageCarousel.vue"
+              data-source-line-start="100"
+              data-source-line-end="107"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                data-source-file="src/components/common/SafeIcon.vue"
+                data-source-line-start="41"
+                data-source-line-end="47"
+                class="lucide lucide-chevron-left-icon lucide-chevron-left"
+              >
+                <path d="m15 18-6-6 6-6"></path>
+              </svg></button
+            ><button
+              class="absolute right-2 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/60 text-white p-2 rounded-full transition-colors"
+              aria-label="下一张"
+              data-source-file="src/components/factory-detail/FactoryImageCarousel.vue"
+              data-source-line-start="109"
+              data-source-line-end="116"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                data-source-file="src/components/common/SafeIcon.vue"
+                data-source-line-start="41"
+                data-source-line-end="47"
+                class="lucide lucide-chevron-right-icon lucide-chevron-right"
+              >
+                <path d="m9 18 6-6-6-6"></path>
+              </svg>
+            </button>
+            <div
+              class="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1"
+              data-source-file="src/components/factory-detail/FactoryImageCarousel.vue"
+              data-source-line-start="119"
+              data-source-line-end="132"
+            >
+              <!--[--><button
+                class="bg-white w-6 w-2 h-2 rounded-full transition-all"
+                aria-label="第 1 张图片"
+                data-source-file="src/components/factory-detail/FactoryImageCarousel.vue"
+                data-source-line-start="120"
+                data-source-line-end="131"
+              ></button
+              ><button
+                class="bg-white/50 hover:bg-white/70 w-2 h-2 rounded-full transition-all"
+                aria-label="第 2 张图片"
+                data-source-file="src/components/factory-detail/FactoryImageCarousel.vue"
+                data-source-line-start="120"
+                data-source-line-end="131"
+              ></button
+              ><button
+                class="bg-white/50 hover:bg-white/70 w-2 h-2 rounded-full transition-all"
+                aria-label="第 3 张图片"
+                data-source-file="src/components/factory-detail/FactoryImageCarousel.vue"
+                data-source-line-start="120"
+                data-source-line-end="131"
+              ></button
+              ><!--]-->
+            </div>
+          </div>
+          <!--]-->
+        </div>
+        <div
+          class="space-y-2"
+          data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+          data-source-line-start="94"
+          data-source-line-end="105"
+        >
+          <h2
+            class="text-lg font-semibold text-foreground"
+            data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+            data-source-line-start="95"
+            data-source-line-end="95"
+          >
+            张江集成电路产业园 - A3栋标准厂房
+          </h2>
+          <div
+            class="flex flex-wrap gap-2"
+            data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+            data-source-line-start="96"
+            data-source-line-end="100"
+          >
+            <span
+              class="px-2 py-0.5 bg-primary/10 text-primary text-[10px] leading-tight rounded font-medium border border-primary/20"
+              data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+              data-source-line-start="97"
+              data-source-line-end="97"
+              >官方认证</span
+            ><span
+              class="px-2 py-0.5 bg-primary/10 text-primary text-[10px] leading-tight rounded font-medium border border-primary/20"
+              data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+              data-source-line-start="98"
+              data-source-line-end="98"
+              >真实厂房</span
+            ><span
+              class="px-2 py-0.5 bg-primary/10 text-primary text-[10px] leading-tight rounded font-medium border border-primary/20"
+              data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+              data-source-line-start="99"
+              data-source-line-end="99"
+              >享受政策</span
+            >
+          </div>
+          <p
+            class="text-sm text-muted-foreground flex items-center gap-1"
+            data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+            data-source-line-start="101"
+            data-source-line-end="104"
+          >
+            <span
+              data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+              data-source-line-start="102"
+              data-source-line-end="102"
+              >📍</span
+            >
+            上海市浦东新区张江科学城
+          </p>
+        </div>
+        <div
+          id="factory-params"
+          class="scroll-mt-32"
+          data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+          data-source-line-start="108"
+          data-source-line-end="110"
+        >
+          <div
+            class="grid grid-cols-3 gap-2"
+            data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+            data-source-line-start="47"
+            data-source-line-end="63"
+          >
+            <!--[-->
+            <div
+              class="rounded-lg border text-card-foreground shadow-sm bg-card border-border hover:shadow-soft transition-shadow overflow-hidden"
+              data-source-file="src/components/ui/card/Card.vue"
+              data-source-line-start="11"
+              data-source-line-end="20"
+            >
+              <!--[-->
+              <div
+                class="p-2 space-y-1"
+                data-source-file="src/components/ui/card/CardContent.vue"
+                data-source-line-start="11"
+                data-source-line-end="13"
+              >
+                <!--[-->
+                <div
+                  class="flex items-center gap-1 text-[10px] text-muted-foreground leading-tight"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="54"
+                  data-source-line-end="57"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide flex-shrink-0 lucide-square-icon lucide-square flex-shrink-0"
+                    data-source-file="src/components/common/SafeIcon.vue"
+                    data-source-line-start="41"
+                    data-source-line-end="47"
+                  >
+                    <rect width="18" height="18" x="3" y="3" rx="2"></rect></svg
+                  ><span
+                    class="font-medium truncate"
+                    data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                    data-source-line-start="56"
+                    data-source-line-end="56"
+                    >面积</span
+                  >
+                </div>
+                <p
+                  class="text-[11px] font-semibold text-foreground leading-tight break-all line-clamp-2"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="58"
+                  data-source-line-end="60"
+                >
+                  1200 m²
+                </p>
+                <!--]-->
+              </div>
+              <!--]-->
+            </div>
+            <div
+              class="rounded-lg border text-card-foreground shadow-sm bg-card border-border hover:shadow-soft transition-shadow overflow-hidden"
+              data-source-file="src/components/ui/card/Card.vue"
+              data-source-line-start="11"
+              data-source-line-end="20"
+            >
+              <!--[-->
+              <div
+                class="p-2 space-y-1"
+                data-source-file="src/components/ui/card/CardContent.vue"
+                data-source-line-start="11"
+                data-source-line-end="13"
+              >
+                <!--[-->
+                <div
+                  class="flex items-center gap-1 text-[10px] text-muted-foreground leading-tight"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="54"
+                  data-source-line-end="57"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide flex-shrink-0 lucide-maximize2-icon lucide-maximize-2 flex-shrink-0"
+                    data-source-file="src/components/common/SafeIcon.vue"
+                    data-source-line-start="41"
+                    data-source-line-end="47"
+                  >
+                    <path d="M15 3h6v6"></path>
+                    <path d="m21 3-7 7"></path>
+                    <path d="m3 21 7-7"></path>
+                    <path d="M9 21H3v-6"></path></svg
+                  ><span
+                    class="font-medium truncate"
+                    data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                    data-source-line-start="56"
+                    data-source-line-end="56"
+                    >层高</span
+                  >
+                </div>
+                <p
+                  class="text-[11px] font-semibold text-foreground leading-tight break-all line-clamp-2"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="58"
+                  data-source-line-end="60"
+                >
+                  6 m
+                </p>
+                <!--]-->
+              </div>
+              <!--]-->
+            </div>
+            <div
+              class="rounded-lg border text-card-foreground shadow-sm bg-card border-border hover:shadow-soft transition-shadow overflow-hidden"
+              data-source-file="src/components/ui/card/Card.vue"
+              data-source-line-start="11"
+              data-source-line-end="20"
+            >
+              <!--[-->
+              <div
+                class="p-2 space-y-1"
+                data-source-file="src/components/ui/card/CardContent.vue"
+                data-source-line-start="11"
+                data-source-line-end="13"
+              >
+                <!--[-->
+                <div
+                  class="flex items-center gap-1 text-[10px] text-muted-foreground leading-tight"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="54"
+                  data-source-line-end="57"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide flex-shrink-0 lucide-weight-icon lucide-weight flex-shrink-0"
+                    data-source-file="src/components/common/SafeIcon.vue"
+                    data-source-line-start="41"
+                    data-source-line-end="47"
+                  >
+                    <circle cx="12" cy="5" r="3"></circle>
+                    <path
+                      d="M6.5 8a2 2 0 0 0-1.905 1.46L2.1 18.5A2 2 0 0 0 4 21h16a2 2 0 0 0 1.925-2.54L19.4 9.5A2 2 0 0 0 17.48 8Z"
+                    ></path></svg
+                  ><span
+                    class="font-medium truncate"
+                    data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                    data-source-line-start="56"
+                    data-source-line-end="56"
+                    >承重</span
+                  >
+                </div>
+                <p
+                  class="text-[11px] font-semibold text-foreground leading-tight break-all line-clamp-2"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="58"
+                  data-source-line-end="60"
+                >
+                  1.5 t/㎡
+                </p>
+                <!--]-->
+              </div>
+              <!--]-->
+            </div>
+            <div
+              class="rounded-lg border text-card-foreground shadow-sm bg-card border-border hover:shadow-soft transition-shadow overflow-hidden"
+              data-source-file="src/components/ui/card/Card.vue"
+              data-source-line-start="11"
+              data-source-line-end="20"
+            >
+              <!--[-->
+              <div
+                class="p-2 space-y-1"
+                data-source-file="src/components/ui/card/CardContent.vue"
+                data-source-line-start="11"
+                data-source-line-end="13"
+              >
+                <!--[-->
+                <div
+                  class="flex items-center gap-1 text-[10px] text-muted-foreground leading-tight"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="54"
+                  data-source-line-end="57"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide flex-shrink-0 lucide-grid3x3-icon lucide-grid-3x3 flex-shrink-0"
+                    data-source-file="src/components/common/SafeIcon.vue"
+                    data-source-line-start="41"
+                    data-source-line-end="47"
+                  >
+                    <rect width="18" height="18" x="3" y="3" rx="2"></rect>
+                    <path d="M3 9h18"></path>
+                    <path d="M3 15h18"></path>
+                    <path d="M9 3v18"></path>
+                    <path d="M15 3v18"></path></svg
+                  ><span
+                    class="font-medium truncate"
+                    data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                    data-source-line-start="56"
+                    data-source-line-end="56"
+                    >柱距</span
+                  >
+                </div>
+                <p
+                  class="text-[11px] font-semibold text-foreground leading-tight break-all line-clamp-2"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="58"
+                  data-source-line-end="60"
+                >
+                  8m x 9m
+                </p>
+                <!--]-->
+              </div>
+              <!--]-->
+            </div>
+            <div
+              class="rounded-lg border text-card-foreground shadow-sm bg-card border-border hover:shadow-soft transition-shadow overflow-hidden"
+              data-source-file="src/components/ui/card/Card.vue"
+              data-source-line-start="11"
+              data-source-line-end="20"
+            >
+              <!--[-->
+              <div
+                class="p-2 space-y-1"
+                data-source-file="src/components/ui/card/CardContent.vue"
+                data-source-line-start="11"
+                data-source-line-end="13"
+              >
+                <!--[-->
+                <div
+                  class="flex items-center gap-1 text-[10px] text-muted-foreground leading-tight"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="54"
+                  data-source-line-end="57"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide flex-shrink-0 lucide-zap-icon lucide-zap flex-shrink-0"
+                    data-source-file="src/components/common/SafeIcon.vue"
+                    data-source-line-start="41"
+                    data-source-line-end="47"
+                  >
+                    <path
+                      d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"
+                    ></path></svg
+                  ><span
+                    class="font-medium truncate"
+                    data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                    data-source-line-start="56"
+                    data-source-line-end="56"
+                    >配电</span
+                  >
+                </div>
+                <p
+                  class="text-[11px] font-semibold text-foreground leading-tight break-all line-clamp-2"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="58"
+                  data-source-line-end="60"
+                >
+                  200 KVA
+                </p>
+                <!--]-->
+              </div>
+              <!--]-->
+            </div>
+            <div
+              class="rounded-lg border text-card-foreground shadow-sm bg-card border-border hover:shadow-soft transition-shadow overflow-hidden"
+              data-source-file="src/components/ui/card/Card.vue"
+              data-source-line-start="11"
+              data-source-line-end="20"
+            >
+              <!--[-->
+              <div
+                class="p-2 space-y-1"
+                data-source-file="src/components/ui/card/CardContent.vue"
+                data-source-line-start="11"
+                data-source-line-end="13"
+              >
+                <!--[-->
+                <div
+                  class="flex items-center gap-1 text-[10px] text-muted-foreground leading-tight"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="54"
+                  data-source-line-end="57"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide flex-shrink-0 lucide-triangle-alert-icon lucide-triangle-alert flex-shrink-0"
+                    data-source-file="src/components/common/SafeIcon.vue"
+                    data-source-line-start="41"
+                    data-source-line-end="47"
+                  >
+                    <path
+                      d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"
+                    ></path>
+                    <path d="M12 9v4"></path>
+                    <path d="M12 17h.01"></path></svg
+                  ><span
+                    class="font-medium truncate"
+                    data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                    data-source-line-start="56"
+                    data-source-line-end="56"
+                    >消防等级</span
+                  >
+                </div>
+                <p
+                  class="text-[11px] font-semibold text-foreground leading-tight break-all line-clamp-2"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="58"
+                  data-source-line-end="60"
+                >
+                  丙类
+                </p>
+                <!--]-->
+              </div>
+              <!--]-->
+            </div>
+            <div
+              class="rounded-lg border text-card-foreground shadow-sm bg-card border-border hover:shadow-soft transition-shadow overflow-hidden"
+              data-source-file="src/components/ui/card/Card.vue"
+              data-source-line-start="11"
+              data-source-line-end="20"
+            >
+              <!--[-->
+              <div
+                class="p-2 space-y-1"
+                data-source-file="src/components/ui/card/CardContent.vue"
+                data-source-line-start="11"
+                data-source-line-end="13"
+              >
+                <!--[-->
+                <div
+                  class="flex items-center gap-1 text-[10px] text-muted-foreground leading-tight"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="54"
+                  data-source-line-end="57"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide flex-shrink-0 lucide-droplets-icon lucide-droplets flex-shrink-0"
+                    data-source-file="src/components/common/SafeIcon.vue"
+                    data-source-line-start="41"
+                    data-source-line-end="47"
+                  >
+                    <path
+                      d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z"
+                    ></path>
+                    <path
+                      d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"
+                    ></path></svg
+                  ><span
+                    class="font-medium truncate"
+                    data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                    data-source-line-start="56"
+                    data-source-line-end="56"
+                    >用水</span
+                  >
+                </div>
+                <p
+                  class="text-[11px] font-semibold text-foreground leading-tight break-all line-clamp-2"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="58"
+                  data-source-line-end="60"
+                >
+                  进出水口
+                </p>
+                <!--]-->
+              </div>
+              <!--]-->
+            </div>
+            <div
+              class="rounded-lg border text-card-foreground shadow-sm bg-card border-border hover:shadow-soft transition-shadow overflow-hidden"
+              data-source-file="src/components/ui/card/Card.vue"
+              data-source-line-start="11"
+              data-source-line-end="20"
+            >
+              <!--[-->
+              <div
+                class="p-2 space-y-1"
+                data-source-file="src/components/ui/card/CardContent.vue"
+                data-source-line-start="11"
+                data-source-line-end="13"
+              >
+                <!--[-->
+                <div
+                  class="flex items-center gap-1 text-[10px] text-muted-foreground leading-tight"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="54"
+                  data-source-line-end="57"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide flex-shrink-0 lucide-flame-icon lucide-flame flex-shrink-0"
+                    data-source-file="src/components/common/SafeIcon.vue"
+                    data-source-line-start="41"
+                    data-source-line-end="47"
+                  >
+                    <path
+                      d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"
+                    ></path></svg
+                  ><span
+                    class="font-medium truncate"
+                    data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                    data-source-line-start="56"
+                    data-source-line-end="56"
+                    >天然气</span
+                  >
+                </div>
+                <p
+                  class="text-[11px] font-semibold text-foreground leading-tight break-all line-clamp-2"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="58"
+                  data-source-line-end="60"
+                >
+                  工业用气
+                </p>
+                <!--]-->
+              </div>
+              <!--]-->
+            </div>
+            <div
+              class="rounded-lg border text-card-foreground shadow-sm bg-card border-border hover:shadow-soft transition-shadow overflow-hidden"
+              data-source-file="src/components/ui/card/Card.vue"
+              data-source-line-start="11"
+              data-source-line-end="20"
+            >
+              <!--[-->
+              <div
+                class="p-2 space-y-1"
+                data-source-file="src/components/ui/card/CardContent.vue"
+                data-source-line-start="11"
+                data-source-line-end="13"
+              >
+                <!--[-->
+                <div
+                  class="flex items-center gap-1 text-[10px] text-muted-foreground leading-tight"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="54"
+                  data-source-line-end="57"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide flex-shrink-0 lucide-wind-icon lucide-wind flex-shrink-0"
+                    data-source-file="src/components/common/SafeIcon.vue"
+                    data-source-line-start="41"
+                    data-source-line-end="47"
+                  >
+                    <path d="M12.8 19.6A2 2 0 1 0 14 16H2"></path>
+                    <path d="M17.5 8a2.5 2.5 0 1 1 2 4H2"></path>
+                    <path d="M9.8 4.4A2 2 0 1 1 11 8H2"></path></svg
+                  ><span
+                    class="font-medium truncate"
+                    data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                    data-source-line-start="56"
+                    data-source-line-end="56"
+                    >蒸汽</span
+                  >
+                </div>
+                <p
+                  class="text-[11px] font-semibold text-foreground leading-tight break-all line-clamp-2"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="58"
+                  data-source-line-end="60"
+                >
+                  无供应
+                </p>
+                <!--]-->
+              </div>
+              <!--]-->
+            </div>
+            <div
+              class="rounded-lg border text-card-foreground shadow-sm bg-card border-border hover:shadow-soft transition-shadow overflow-hidden"
+              data-source-file="src/components/ui/card/Card.vue"
+              data-source-line-start="11"
+              data-source-line-end="20"
+            >
+              <!--[-->
+              <div
+                class="p-2 space-y-1"
+                data-source-file="src/components/ui/card/CardContent.vue"
+                data-source-line-start="11"
+                data-source-line-end="13"
+              >
+                <!--[-->
+                <div
+                  class="flex items-center gap-1 text-[10px] text-muted-foreground leading-tight"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="54"
+                  data-source-line-end="57"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide flex-shrink-0 lucide-arrow-up-down-icon lucide-arrow-up-down flex-shrink-0"
+                    data-source-file="src/components/common/SafeIcon.vue"
+                    data-source-line-start="41"
+                    data-source-line-end="47"
+                  >
+                    <path d="m21 16-4 4-4-4"></path>
+                    <path d="M17 20V4"></path>
+                    <path d="m3 8 4-4 4 4"></path>
+                    <path d="M7 4v16"></path></svg
+                  ><span
+                    class="font-medium truncate"
+                    data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                    data-source-line-start="56"
+                    data-source-line-end="56"
+                    >货梯</span
+                  >
+                </div>
+                <p
+                  class="text-[11px] font-semibold text-foreground leading-tight break-all line-clamp-2"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="58"
+                  data-source-line-end="60"
+                >
+                  2吨货梯(2部)
+                </p>
+                <!--]-->
+              </div>
+              <!--]-->
+            </div>
+            <div
+              class="rounded-lg border text-card-foreground shadow-sm bg-card border-border hover:shadow-soft transition-shadow overflow-hidden"
+              data-source-file="src/components/ui/card/Card.vue"
+              data-source-line-start="11"
+              data-source-line-end="20"
+            >
+              <!--[-->
+              <div
+                class="p-2 space-y-1"
+                data-source-file="src/components/ui/card/CardContent.vue"
+                data-source-line-start="11"
+                data-source-line-end="13"
+              >
+                <!--[-->
+                <div
+                  class="flex items-center gap-1 text-[10px] text-muted-foreground leading-tight"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="54"
+                  data-source-line-end="57"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide flex-shrink-0 lucide-boxes-icon lucide-boxes flex-shrink-0"
+                    data-source-file="src/components/common/SafeIcon.vue"
+                    data-source-line-start="41"
+                    data-source-line-end="47"
+                  >
+                    <path
+                      d="M2.97 12.92A2 2 0 0 0 2 14.63v3.24a2 2 0 0 0 .97 1.71l3 1.8a2 2 0 0 0 2.06 0L12 19v-5.5l-5-3-4.03 2.42Z"
+                    ></path>
+                    <path d="m7 16.5-4.74-2.85"></path>
+                    <path d="m7 16.5 5-3"></path>
+                    <path d="M7 16.5v5.17"></path>
+                    <path
+                      d="M12 13.5V19l3.97 2.38a2 2 0 0 0 2.06 0l3-1.8a2 2 0 0 0 .97-1.71v-3.24a2 2 0 0 0-.97-1.71L17 10.5l-5 3Z"
+                    ></path>
+                    <path d="m17 16.5-5-3"></path>
+                    <path d="m17 16.5 4.74-2.85"></path>
+                    <path d="M17 16.5v5.17"></path>
+                    <path
+                      d="M7.97 4.42A2 2 0 0 0 7 6.13v4.37l5 3 5-3V6.13a2 2 0 0 0-.97-1.71l-3-1.8a2 2 0 0 0-2.06 0l-3 1.8Z"
+                    ></path>
+                    <path d="M12 8 7.26 5.15"></path>
+                    <path d="m12 8 4.74-2.85"></path>
+                    <path d="M12 13.5V8"></path></svg
+                  ><span
+                    class="font-medium truncate"
+                    data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                    data-source-line-start="56"
+                    data-source-line-end="56"
+                    >结构</span
+                  >
+                </div>
+                <p
+                  class="text-[11px] font-semibold text-foreground leading-tight break-all line-clamp-2"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="58"
+                  data-source-line-end="60"
+                >
+                  框架结构
+                </p>
+                <!--]-->
+              </div>
+              <!--]-->
+            </div>
+            <div
+              class="rounded-lg border text-card-foreground shadow-sm bg-card border-border hover:shadow-soft transition-shadow overflow-hidden"
+              data-source-file="src/components/ui/card/Card.vue"
+              data-source-line-start="11"
+              data-source-line-end="20"
+            >
+              <!--[-->
+              <div
+                class="p-2 space-y-1"
+                data-source-file="src/components/ui/card/CardContent.vue"
+                data-source-line-start="11"
+                data-source-line-end="13"
+              >
+                <!--[-->
+                <div
+                  class="flex items-center gap-1 text-[10px] text-muted-foreground leading-tight"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="54"
+                  data-source-line-end="57"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide flex-shrink-0 lucide-layers-icon lucide-layers flex-shrink-0"
+                    data-source-file="src/components/common/SafeIcon.vue"
+                    data-source-line-start="41"
+                    data-source-line-end="47"
+                  >
+                    <path
+                      d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"
+                    ></path>
+                    <path
+                      d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"
+                    ></path>
+                    <path
+                      d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"
+                    ></path></svg
+                  ><span
+                    class="font-medium truncate"
+                    data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                    data-source-line-start="56"
+                    data-source-line-end="56"
+                    >地面</span
+                  >
+                </div>
+                <p
+                  class="text-[11px] font-semibold text-foreground leading-tight break-all line-clamp-2"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="58"
+                  data-source-line-end="60"
+                >
+                  1F金刚砂，2F及以上环氧地坪
+                </p>
+                <!--]-->
+              </div>
+              <!--]-->
+            </div>
+            <div
+              class="rounded-lg border text-card-foreground shadow-sm bg-card border-border hover:shadow-soft transition-shadow overflow-hidden"
+              data-source-file="src/components/ui/card/Card.vue"
+              data-source-line-start="11"
+              data-source-line-end="20"
+            >
+              <!--[-->
+              <div
+                class="p-2 space-y-1"
+                data-source-file="src/components/ui/card/CardContent.vue"
+                data-source-line-start="11"
+                data-source-line-end="13"
+              >
+                <!--[-->
+                <div
+                  class="flex items-center gap-1 text-[10px] text-muted-foreground leading-tight"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="54"
+                  data-source-line-end="57"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide flex-shrink-0 lucide-panels-top-left-icon lucide-panels-top-left flex-shrink-0"
+                    data-source-file="src/components/common/SafeIcon.vue"
+                    data-source-line-start="41"
+                    data-source-line-end="47"
+                  >
+                    <rect width="18" height="18" x="3" y="3" rx="2"></rect>
+                    <path d="M3 9h18"></path>
+                    <path d="M9 21V9"></path></svg
+                  ><span
+                    class="font-medium truncate"
+                    data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                    data-source-line-start="56"
+                    data-source-line-end="56"
+                    >墙面</span
+                  >
+                </div>
+                <p
+                  class="text-[11px] font-semibold text-foreground leading-tight break-all line-clamp-2"
+                  data-source-file="src/components/factory-detail/FactoryBasicInfo.vue"
+                  data-source-line-start="58"
+                  data-source-line-end="60"
+                >
+                  实砖墙+保温层
+                </p>
+                <!--]-->
+              </div>
+              <!--]-->
+            </div>
+            <!--]-->
+          </div>
+        </div>
+        <div
+          class="rounded-lg border bg-card text-card-foreground shadow-sm border-border overflow-hidden"
+          data-source-file="src/components/ui/card/Card.vue"
+          data-source-line-start="11"
+          data-source-line-end="20"
+          data-v-dcfbbc06=""
+        >
+          <!--[-->
+          <div
+            class="flex flex-col gap-y-1.5 p-6 pb-3"
+            data-source-file="src/components/ui/card/CardHeader.vue"
+            data-source-line-start="11"
+            data-source-line-end="13"
+            data-v-dcfbbc06=""
+          >
+            <!--[-->
+            <h3
+              class="tracking-tight text-sm font-semibold flex items-center gap-2"
+              data-source-file="src/components/ui/card/CardTitle.vue"
+              data-source-line-start="11"
+              data-source-line-end="17"
+              data-v-dcfbbc06=""
+            >
+              <!--[--><span
+                class="w-1 h-4 bg-primary rounded-full"
+                data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                data-source-line-start="17"
+                data-source-line-end="17"
+                data-v-dcfbbc06=""
+              ></span>
+              分层详细参数
+              <!--]-->
+            </h3>
+            <!--]-->
+          </div>
+          <div
+            class="p-0"
+            data-source-file="src/components/ui/card/CardContent.vue"
+            data-source-line-start="11"
+            data-source-line-end="13"
+            data-v-dcfbbc06=""
+          >
+            <!--[-->
+            <div
+              class="relative overflow-x-auto"
+              data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+              data-source-line-start="22"
+              data-source-line-end="57"
+              data-v-dcfbbc06=""
+            >
+              <table
+                class="w-full text-xs text-left border-collapse min-w-[700px]"
+                data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                data-source-line-start="23"
+                data-source-line-end="56"
+                data-v-dcfbbc06=""
+              >
+                <thead
+                  data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                  data-source-line-start="24"
+                  data-source-line-end="37"
+                  data-v-dcfbbc06=""
+                >
+                  <tr
+                    class="bg-muted/50 border-y border-border"
+                    data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                    data-source-line-start="25"
+                    data-source-line-end="36"
+                    data-v-dcfbbc06=""
+                  >
+                    <th
+                      class="sticky left-0 z-20 bg-muted/80 backdrop-blur-sm px-4 py-3 font-semibold text-foreground border-r shadow-[2px_0_5px_-2px_rgba(0,0,0,0.1)]"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="26"
+                      data-source-line-end="28"
+                      data-v-dcfbbc06=""
+                    >
+                      楼层
+                    </th>
+                    <th
+                      class="px-4 py-3 font-semibold text-muted-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="29"
+                      data-source-line-end="29"
+                      data-v-dcfbbc06=""
+                    >
+                      面积 (m²)
+                    </th>
+                    <th
+                      class="px-4 py-3 font-semibold text-muted-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="30"
+                      data-source-line-end="30"
+                      data-v-dcfbbc06=""
+                    >
+                      层高 (m)
+                    </th>
+                    <th
+                      class="px-4 py-3 font-semibold text-muted-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="31"
+                      data-source-line-end="31"
+                      data-v-dcfbbc06=""
+                    >
+                      承重 (t/㎡)
+                    </th>
+                    <th
+                      class="px-4 py-3 font-semibold text-muted-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="32"
+                      data-source-line-end="32"
+                      data-v-dcfbbc06=""
+                    >
+                      配电情况
+                    </th>
+                    <th
+                      class="px-4 py-3 font-semibold text-muted-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="33"
+                      data-source-line-end="33"
+                      data-v-dcfbbc06=""
+                    >
+                      墙面类型
+                    </th>
+                    <th
+                      class="px-4 py-3 font-semibold text-muted-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="34"
+                      data-source-line-end="34"
+                      data-v-dcfbbc06=""
+                    >
+                      地面类型
+                    </th>
+                    <th
+                      class="px-4 py-3 font-semibold text-muted-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="35"
+                      data-source-line-end="35"
+                      data-v-dcfbbc06=""
+                    >
+                      消防情况
+                    </th>
+                  </tr>
+                </thead>
+                <tbody
+                  class="divide-y divide-border"
+                  data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                  data-source-line-start="38"
+                  data-source-line-end="55"
+                  data-v-dcfbbc06=""
+                >
+                  <!--[-->
+                  <tr
+                    class="hover:bg-accent/5 transition-colors"
+                    data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                    data-source-line-start="39"
+                    data-source-line-end="54"
+                    data-v-dcfbbc06=""
+                  >
+                    <td
+                      class="sticky left-0 z-10 bg-card px-4 py-3 font-bold text-primary border-r shadow-[2px_0_5px_-2px_rgba(0,0,0,0.1)]"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="44"
+                      data-source-line-end="46"
+                      data-v-dcfbbc06=""
+                    >
+                      1F
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="47"
+                      data-source-line-end="47"
+                      data-v-dcfbbc06=""
+                    >
+                      400
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="48"
+                      data-source-line-end="48"
+                      data-v-dcfbbc06=""
+                    >
+                      6
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="49"
+                      data-source-line-end="49"
+                      data-v-dcfbbc06=""
+                    >
+                      2
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="50"
+                      data-source-line-end="50"
+                      data-v-dcfbbc06=""
+                    >
+                      80KVA
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground truncate max-w-[100px]"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="51"
+                      data-source-line-end="51"
+                      data-v-dcfbbc06=""
+                    >
+                      实砖墙
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground truncate max-w-[100px]"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="52"
+                      data-source-line-end="52"
+                      data-v-dcfbbc06=""
+                    >
+                      金刚砂地坪
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="53"
+                      data-source-line-end="53"
+                      data-v-dcfbbc06=""
+                    >
+                      喷淋/烟感
+                    </td>
+                  </tr>
+                  <tr
+                    class="hover:bg-accent/5 transition-colors"
+                    data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                    data-source-line-start="39"
+                    data-source-line-end="54"
+                    data-v-dcfbbc06=""
+                  >
+                    <td
+                      class="sticky left-0 z-10 bg-card px-4 py-3 font-bold text-primary border-r shadow-[2px_0_5px_-2px_rgba(0,0,0,0.1)]"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="44"
+                      data-source-line-end="46"
+                      data-v-dcfbbc06=""
+                    >
+                      2F
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="47"
+                      data-source-line-end="47"
+                      data-v-dcfbbc06=""
+                    >
+                      400
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="48"
+                      data-source-line-end="48"
+                      data-v-dcfbbc06=""
+                    >
+                      4.5
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="49"
+                      data-source-line-end="49"
+                      data-v-dcfbbc06=""
+                    >
+                      1
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="50"
+                      data-source-line-end="50"
+                      data-v-dcfbbc06=""
+                    >
+                      60KVA
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground truncate max-w-[100px]"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="51"
+                      data-source-line-end="51"
+                      data-v-dcfbbc06=""
+                    >
+                      彩钢板
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground truncate max-w-[100px]"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="52"
+                      data-source-line-end="52"
+                      data-v-dcfbbc06=""
+                    >
+                      环氧地坪
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="53"
+                      data-source-line-end="53"
+                      data-v-dcfbbc06=""
+                    >
+                      喷淋/烟感
+                    </td>
+                  </tr>
+                  <tr
+                    class="hover:bg-accent/5 transition-colors"
+                    data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                    data-source-line-start="39"
+                    data-source-line-end="54"
+                    data-v-dcfbbc06=""
+                  >
+                    <td
+                      class="sticky left-0 z-10 bg-card px-4 py-3 font-bold text-primary border-r shadow-[2px_0_5px_-2px_rgba(0,0,0,0.1)]"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="44"
+                      data-source-line-end="46"
+                      data-v-dcfbbc06=""
+                    >
+                      3F
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="47"
+                      data-source-line-end="47"
+                      data-v-dcfbbc06=""
+                    >
+                      400
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="48"
+                      data-source-line-end="48"
+                      data-v-dcfbbc06=""
+                    >
+                      4.5
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="49"
+                      data-source-line-end="49"
+                      data-v-dcfbbc06=""
+                    >
+                      0.8
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="50"
+                      data-source-line-end="50"
+                      data-v-dcfbbc06=""
+                    >
+                      60KVA
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground truncate max-w-[100px]"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="51"
+                      data-source-line-end="51"
+                      data-v-dcfbbc06=""
+                    >
+                      隔离窗
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground truncate max-w-[100px]"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="52"
+                      data-source-line-end="52"
+                      data-v-dcfbbc06=""
+                    >
+                      防静电地板
+                    </td>
+                    <td
+                      class="px-4 py-3 text-foreground"
+                      data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                      data-source-line-start="53"
+                      data-source-line-end="53"
+                      data-v-dcfbbc06=""
+                    >
+                      烟感
+                    </td>
+                  </tr>
+                  <!--]-->
+                </tbody>
+              </table>
+            </div>
+            <div
+              class="px-4 py-2 bg-muted/20 text-[10px] text-muted-foreground flex items-center justify-center gap-1 border-t"
+              data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+              data-source-line-start="59"
+              data-source-line-end="61"
+              data-v-dcfbbc06=""
+            >
+              <span
+                class="animate-pulse"
+                data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                data-source-line-start="60"
+                data-source-line-end="60"
+                data-v-dcfbbc06=""
+                >←</span
+              >
+              左右拖动查看完整楼层参数
+              <span
+                class="animate-pulse"
+                data-source-file="src/components/factory-detail/FloorInfoTable.vue"
+                data-source-line-start="60"
+                data-source-line-end="60"
+                data-v-dcfbbc06=""
+                >→</span
+              >
+            </div>
+            <!--]-->
+          </div>
+          <!--]-->
+        </div>
+        <div
+          id="factory-features"
+          class="scroll-mt-32"
+          data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+          data-source-line-start="116"
+          data-source-line-end="118"
+        >
+          <div
+            class="space-y-3"
+            data-source-file="src/components/factory-detail/FactoryFeatures.vue"
+            data-source-line-start="26"
+            data-source-line-end="44"
+          >
+            <h3
+              class="text-sm font-semibold text-foreground"
+              data-source-file="src/components/factory-detail/FactoryFeatures.vue"
+              data-source-line-start="27"
+              data-source-line-end="27"
+            >
+              厂房特色
+            </h3>
+            <div
+              class="grid grid-cols-2 gap-2"
+              data-source-file="src/components/factory-detail/FactoryFeatures.vue"
+              data-source-line-start="28"
+              data-source-line-end="43"
+            >
+              <!--[-->
+              <div
+                class="rounded-lg border text-card-foreground shadow-sm bg-accent/5 border-accent/20 hover:bg-accent/10 transition-colors"
+                data-source-file="src/components/ui/card/Card.vue"
+                data-source-line-start="11"
+                data-source-line-end="20"
+              >
+                <!--[-->
+                <div
+                  class="p-3 flex items-center gap-2"
+                  data-source-file="src/components/ui/card/CardContent.vue"
+                  data-source-line-start="11"
+                  data-source-line-end="13"
+                >
+                  <!--[--><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide text-accent flex-shrink-0 lucide-palette-icon lucide-palette text-accent flex-shrink-0"
+                    data-source-file="src/components/common/SafeIcon.vue"
+                    data-source-line-start="41"
+                    data-source-line-end="47"
+                  >
+                    <path
+                      d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"
+                    ></path>
+                    <circle
+                      cx="13.5"
+                      cy="6.5"
+                      r=".5"
+                      fill="currentColor"
+                    ></circle>
+                    <circle
+                      cx="17.5"
+                      cy="10.5"
+                      r=".5"
+                      fill="currentColor"
+                    ></circle>
+                    <circle
+                      cx="6.5"
+                      cy="12.5"
+                      r=".5"
+                      fill="currentColor"
+                    ></circle>
+                    <circle
+                      cx="8.5"
+                      cy="7.5"
+                      r=".5"
+                      fill="currentColor"
+                    ></circle></svg
+                  ><span
+                    class="text-xs font-medium text-foreground"
+                    data-source-file="src/components/factory-detail/FactoryFeatures.vue"
+                    data-source-line-start="40"
+                    data-source-line-end="40"
+                    >带装修</span
+                  ><!--]-->
+                </div>
+                <!--]-->
+              </div>
+              <div
+                class="rounded-lg border text-card-foreground shadow-sm bg-accent/5 border-accent/20 hover:bg-accent/10 transition-colors"
+                data-source-file="src/components/ui/card/Card.vue"
+                data-source-line-start="11"
+                data-source-line-end="20"
+              >
+                <!--[-->
+                <div
+                  class="p-3 flex items-center gap-2"
+                  data-source-file="src/components/ui/card/CardContent.vue"
+                  data-source-line-start="11"
+                  data-source-line-end="13"
+                >
+                  <!--[--><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide text-accent flex-shrink-0 lucide-zap-icon lucide-zap text-accent flex-shrink-0"
+                    data-source-file="src/components/common/SafeIcon.vue"
+                    data-source-line-start="41"
+                    data-source-line-end="47"
+                  >
+                    <path
+                      d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"
+                    ></path></svg
+                  ><span
+                    class="text-xs font-medium text-foreground"
+                    data-source-file="src/components/factory-detail/FactoryFeatures.vue"
+                    data-source-line-start="40"
+                    data-source-line-end="40"
+                    >双路供电</span
+                  ><!--]-->
+                </div>
+                <!--]-->
+              </div>
+              <div
+                class="rounded-lg border text-card-foreground shadow-sm bg-accent/5 border-accent/20 hover:bg-accent/10 transition-colors"
+                data-source-file="src/components/ui/card/Card.vue"
+                data-source-line-start="11"
+                data-source-line-end="20"
+              >
+                <!--[-->
+                <div
+                  class="p-3 flex items-center gap-2"
+                  data-source-file="src/components/ui/card/CardContent.vue"
+                  data-source-line-start="11"
+                  data-source-line-end="13"
+                >
+                  <!--[--><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide text-accent flex-shrink-0 lucide-truck-icon lucide-truck text-accent flex-shrink-0"
+                    data-source-file="src/components/common/SafeIcon.vue"
+                    data-source-line-start="41"
+                    data-source-line-end="47"
+                  >
+                    <path
+                      d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"
+                    ></path>
+                    <path d="M15 18H9"></path>
+                    <path
+                      d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"
+                    ></path>
+                    <circle cx="17" cy="18" r="2"></circle>
+                    <circle cx="7" cy="18" r="2"></circle></svg
+                  ><span
+                    class="text-xs font-medium text-foreground"
+                    data-source-file="src/components/factory-detail/FactoryFeatures.vue"
+                    data-source-line-start="40"
+                    data-source-line-end="40"
+                    >卸货平台</span
+                  ><!--]-->
+                </div>
+                <!--]-->
+              </div>
+              <!--]-->
+            </div>
+          </div>
+        </div>
+        <div
+          id="factory-lease"
+          class="space-y-4 scroll-mt-32"
+          data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+          data-source-line-start="121"
+          data-source-line-end="128"
+        >
+          <div
+            class="rounded-lg border bg-card text-card-foreground shadow-sm border-border overflow-hidden"
+            data-source-file="src/components/ui/card/Card.vue"
+            data-source-line-start="11"
+            data-source-line-end="20"
+          >
+            <!--[-->
+            <div
+              class="flex flex-col gap-y-1.5 p-6 pb-3 px-4 pt-4"
+              data-source-file="src/components/ui/card/CardHeader.vue"
+              data-source-line-start="11"
+              data-source-line-end="13"
+            >
+              <!--[-->
+              <h3
+                class="tracking-tight text-sm font-semibold flex items-center gap-2"
+                data-source-file="src/components/ui/card/CardTitle.vue"
+                data-source-line-start="11"
+                data-source-line-end="17"
+              >
+                <!--[--><span
+                  class="w-1 h-4 bg-primary rounded-full"
+                  data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                  data-source-line-start="27"
+                  data-source-line-end="27"
+                ></span>
+                租售及物业详情
+                <!--]-->
+              </h3>
+              <!--]-->
+            </div>
+            <div
+              class="p-6 pt-0 px-4 pb-4"
+              data-source-file="src/components/ui/card/CardContent.vue"
+              data-source-line-start="11"
+              data-source-line-end="13"
+            >
+              <!--[-->
+              <div
+                class="grid grid-cols-2 gap-x-4 gap-y-4"
+                data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                data-source-line-start="32"
+                data-source-line-end="46"
+              >
+                <!--[-->
+                <div
+                  class="flex flex-col gap-1"
+                  data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                  data-source-line-start="33"
+                  data-source-line-end="45"
+                >
+                  <div
+                    class="flex items-center gap-1.5 text-muted-foreground"
+                    data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                    data-source-line-start="38"
+                    data-source-line-end="41"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide text-primary/70 lucide-tags-icon lucide-tags text-primary/70"
+                      data-source-file="src/components/common/SafeIcon.vue"
+                      data-source-line-start="41"
+                      data-source-line-end="47"
+                    >
+                      <path
+                        d="M13.172 2a2 2 0 0 1 1.414.586l6.71 6.71a2.4 2.4 0 0 1 0 3.408l-4.592 4.592a2.4 2.4 0 0 1-3.408 0l-6.71-6.71A2 2 0 0 1 6 9.172V3a1 1 0 0 1 1-1z"
+                      ></path>
+                      <path
+                        d="M2 7v6.172a2 2 0 0 0 .586 1.414l6.71 6.71a2.4 2.4 0 0 0 3.191.193"
+                      ></path>
+                      <circle
+                        cx="10.5"
+                        cy="6.5"
+                        r=".5"
+                        fill="currentColor"
+                      ></circle></svg
+                    ><span
+                      class="text-[11px] font-medium"
+                      data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                      data-source-line-start="40"
+                      data-source-line-end="40"
+                      >租售类型</span
+                    >
+                  </div>
+                  <p
+                    class="text-[13px] font-semibold text-foreground pl-5 uppercase"
+                    data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                    data-source-line-start="42"
+                    data-source-line-end="44"
+                  >
+                    仅出租
+                  </p>
+                </div>
+                <div
+                  class="flex flex-col gap-1"
+                  data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                  data-source-line-start="33"
+                  data-source-line-end="45"
+                >
+                  <div
+                    class="flex items-center gap-1.5 text-muted-foreground"
+                    data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                    data-source-line-start="38"
+                    data-source-line-end="41"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide text-primary/70 lucide-dollar-sign-icon lucide-dollar-sign text-primary/70"
+                      data-source-file="src/components/common/SafeIcon.vue"
+                      data-source-line-start="41"
+                      data-source-line-end="47"
+                    >
+                      <line x1="12" x2="12" y1="2" y2="22"></line>
+                      <path
+                        d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                      ></path></svg
+                    ><span
+                      class="text-[11px] font-medium"
+                      data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                      data-source-line-start="40"
+                      data-source-line-end="40"
+                      >租金单价</span
+                    >
+                  </div>
+                  <p
+                    class="text-[13px] font-semibold text-foreground pl-5 uppercase"
+                    data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                    data-source-line-start="42"
+                    data-source-line-end="44"
+                  >
+                    45 元/㎡/月
+                  </p>
+                </div>
+                <div
+                  class="flex flex-col gap-1"
+                  data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                  data-source-line-start="33"
+                  data-source-line-end="45"
+                >
+                  <div
+                    class="flex items-center gap-1.5 text-muted-foreground"
+                    data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                    data-source-line-start="38"
+                    data-source-line-end="41"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide text-primary/70 lucide-credit-card-icon lucide-credit-card text-primary/70"
+                      data-source-file="src/components/common/SafeIcon.vue"
+                      data-source-line-start="41"
+                      data-source-line-end="47"
+                    >
+                      <rect width="20" height="14" x="2" y="5" rx="2"></rect>
+                      <line x1="2" x2="22" y1="10" y2="10"></line></svg
+                    ><span
+                      class="text-[11px] font-medium"
+                      data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                      data-source-line-start="40"
+                      data-source-line-end="40"
+                      >付款方式</span
+                    >
+                  </div>
+                  <p
+                    class="text-[13px] font-semibold text-foreground pl-5 uppercase"
+                    data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                    data-source-line-start="42"
+                    data-source-line-end="44"
+                  >
+                    付三押三
+                  </p>
+                </div>
+                <div
+                  class="flex flex-col gap-1"
+                  data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                  data-source-line-start="33"
+                  data-source-line-end="45"
+                >
+                  <div
+                    class="flex items-center gap-1.5 text-muted-foreground"
+                    data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                    data-source-line-start="38"
+                    data-source-line-end="41"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide text-primary/70 lucide-shield-check-icon lucide-shield-check text-primary/70"
+                      data-source-file="src/components/common/SafeIcon.vue"
+                      data-source-line-start="41"
+                      data-source-line-end="47"
+                    >
+                      <path
+                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                      ></path>
+                      <path d="m9 12 2 2 4-4"></path></svg
+                    ><span
+                      class="text-[11px] font-medium"
+                      data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                      data-source-line-start="40"
+                      data-source-line-end="40"
+                      >押金方式</span
+                    >
+                  </div>
+                  <p
+                    class="text-[13px] font-semibold text-foreground pl-5 uppercase"
+                    data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                    data-source-line-start="42"
+                    data-source-line-end="44"
+                  >
+                    三个月租金
+                  </p>
+                </div>
+                <div
+                  class="flex flex-col gap-1"
+                  data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                  data-source-line-start="33"
+                  data-source-line-end="45"
+                >
+                  <div
+                    class="flex items-center gap-1.5 text-muted-foreground"
+                    data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                    data-source-line-start="38"
+                    data-source-line-end="41"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide text-primary/70 lucide-clipboard-check-icon lucide-clipboard-check text-primary/70"
+                      data-source-file="src/components/common/SafeIcon.vue"
+                      data-source-line-start="41"
+                      data-source-line-end="47"
+                    >
+                      <rect
+                        width="8"
+                        height="4"
+                        x="8"
+                        y="2"
+                        rx="1"
+                        ry="1"
+                      ></rect>
+                      <path
+                        d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"
+                      ></path>
+                      <path d="m9 14 2 2 4-4"></path></svg
+                    ><span
+                      class="text-[11px] font-medium"
+                      data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                      data-source-line-start="40"
+                      data-source-line-end="40"
+                      >是否含物业</span
+                    >
+                  </div>
+                  <p
+                    class="text-[13px] font-semibold text-foreground pl-5 uppercase"
+                    data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                    data-source-line-start="42"
+                    data-source-line-end="44"
+                  >
+                    否
+                  </p>
+                </div>
+                <div
+                  class="flex flex-col gap-1"
+                  data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                  data-source-line-start="33"
+                  data-source-line-end="45"
+                >
+                  <div
+                    class="flex items-center gap-1.5 text-muted-foreground"
+                    data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                    data-source-line-start="38"
+                    data-source-line-end="41"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide text-primary/70 lucide-receipt-icon lucide-receipt text-primary/70"
+                      data-source-file="src/components/common/SafeIcon.vue"
+                      data-source-line-start="41"
+                      data-source-line-end="47"
+                    >
+                      <path
+                        d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"
+                      ></path>
+                      <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"></path>
+                      <path d="M12 17.5v-11"></path></svg
+                    ><span
+                      class="text-[11px] font-medium"
+                      data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                      data-source-line-start="40"
+                      data-source-line-end="40"
+                      >物业费用</span
+                    >
+                  </div>
+                  <p
+                    class="text-[13px] font-semibold text-foreground pl-5 uppercase"
+                    data-source-file="src/components/factory-detail/LeaseTermsCard.vue"
+                    data-source-line-start="42"
+                    data-source-line-end="44"
+                  >
+                    3.5 元/㎡/月
+                  </p>
+                </div>
+                <!--]-->
+              </div>
+              <!--]-->
+            </div>
+            <!--]-->
+          </div>
+          <div
+            class="rounded-lg border bg-card text-card-foreground shadow-sm bg-gradient-to-br from-primary/5 to-secondary/5 border-primary/20"
+            data-source-file="src/components/ui/card/Card.vue"
+            data-source-line-start="11"
+            data-source-line-end="20"
+          >
+            <!--[-->
+            <div
+              class="flex flex-col gap-y-1.5 p-6 pb-3"
+              data-source-file="src/components/ui/card/CardHeader.vue"
+              data-source-line-start="11"
+              data-source-line-end="13"
+            >
+              <!--[-->
+              <h3
+                class="font-semibold tracking-tight text-base flex items-center justify-between"
+                data-source-file="src/components/ui/card/CardTitle.vue"
+                data-source-line-start="11"
+                data-source-line-end="17"
+              >
+                <!--[--><span
+                  data-source-file="src/components/factory-detail/RentPriceCard.vue"
+                  data-source-line-start="33"
+                  data-source-line-end="33"
+                  >租金信息</span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide text-primary lucide-dollar-sign-icon lucide-dollar-sign text-primary"
+                  data-source-file="src/components/common/SafeIcon.vue"
+                  data-source-line-start="41"
+                  data-source-line-end="47"
+                >
+                  <line x1="12" x2="12" y1="2" y2="22"></line>
+                  <path
+                    d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                  ></path></svg
+                ><!--]-->
+              </h3>
+              <!--]-->
+            </div>
+            <div
+              class="p-6 pt-0 space-y-4"
+              data-source-file="src/components/ui/card/CardContent.vue"
+              data-source-line-start="11"
+              data-source-line-end="13"
+            >
+              <!--[-->
+              <div
+                class="flex justify-between items-center pb-3 border-b border-border"
+                data-source-file="src/components/factory-detail/RentPriceCard.vue"
+                data-source-line-start="39"
+                data-source-line-end="44"
+              >
+                <span
+                  class="text-sm text-muted-foreground"
+                  data-source-file="src/components/factory-detail/RentPriceCard.vue"
+                  data-source-line-start="40"
+                  data-source-line-end="40"
+                  >单价</span
+                ><span
+                  class="text-lg font-bold text-primary"
+                  data-source-file="src/components/factory-detail/RentPriceCard.vue"
+                  data-source-line-start="41"
+                  data-source-line-end="43"
+                >
+                  ¥45<span
+                    class="text-xs font-normal text-muted-foreground"
+                    data-source-file="src/components/factory-detail/RentPriceCard.vue"
+                    data-source-line-start="42"
+                    data-source-line-end="42"
+                    >/㎡/月</span
+                  ></span
+                >
+              </div>
+              <div
+                class="flex justify-between items-center pb-3 border-b border-border"
+                data-source-file="src/components/factory-detail/RentPriceCard.vue"
+                data-source-line-start="47"
+                data-source-line-end="52"
+              >
+                <span
+                  class="text-sm text-muted-foreground"
+                  data-source-file="src/components/factory-detail/RentPriceCard.vue"
+                  data-source-line-start="48"
+                  data-source-line-end="48"
+                  >月租金</span
+                ><span
+                  class="text-lg font-bold text-foreground"
+                  data-source-file="src/components/factory-detail/RentPriceCard.vue"
+                  data-source-line-start="49"
+                  data-source-line-end="51"
+                >
+                  ¥54,000</span
+                >
+              </div>
+              <div
+                class="flex justify-between items-center pb-3 border-b border-border"
+                data-source-file="src/components/factory-detail/RentPriceCard.vue"
+                data-source-line-start="55"
+                data-source-line-end="60"
+              >
+                <span
+                  class="text-sm text-muted-foreground"
+                  data-source-file="src/components/factory-detail/RentPriceCard.vue"
+                  data-source-line-start="56"
+                  data-source-line-end="56"
+                  >年租金</span
+                ><span
+                  class="text-lg font-bold text-foreground"
+                  data-source-file="src/components/factory-detail/RentPriceCard.vue"
+                  data-source-line-start="57"
+                  data-source-line-end="59"
+                >
+                  ¥648,000</span
+                >
+              </div>
+              <button
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-transparent hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full mt-2"
+                data-source-file="src/components/ui/button/Button.vue"
+                data-source-line-start="21"
+                data-source-line-end="27"
+              >
+                <!--[--><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide mr-2 lucide-calculator-icon lucide-calculator mr-2"
+                  data-source-file="src/components/common/SafeIcon.vue"
+                  data-source-line-start="41"
+                  data-source-line-end="47"
+                >
+                  <rect width="16" height="20" x="4" y="2" rx="2"></rect>
+                  <line x1="8" x2="16" y1="6" y2="6"></line>
+                  <line x1="16" x2="16" y1="14" y2="18"></line>
+                  <path d="M16 10h.01"></path>
+                  <path d="M12 10h.01"></path>
+                  <path d="M8 10h.01"></path>
+                  <path d="M12 14h.01"></path>
+                  <path d="M8 14h.01"></path>
+                  <path d="M12 18h.01"></path>
+                  <path d="M8 18h.01"></path>
+                </svg>
+                详细租金计算
+                <!--]--></button
+              ><!--]-->
+            </div>
+            <!--]-->
+          </div>
+        </div>
+        <div
+          class="rounded-lg border text-card-foreground shadow-sm bg-card border-border"
+          data-source-file="src/components/ui/card/Card.vue"
+          data-source-line-start="11"
+          data-source-line-end="20"
+        >
+          <!--[-->
+          <div
+            class="flex flex-col gap-y-1.5 p-6 pb-3"
+            data-source-file="src/components/ui/card/CardHeader.vue"
+            data-source-line-start="11"
+            data-source-line-end="13"
+          >
+            <!--[-->
+            <h3
+              class="font-semibold tracking-tight text-base flex items-center gap-2"
+              data-source-file="src/components/ui/card/CardTitle.vue"
+              data-source-line-start="11"
+              data-source-line-end="17"
+            >
+              <!--[--><span
+                class="text-2xl"
+                data-source-file="src/components/factory-detail/ParkInfoCard.vue"
+                data-source-line-start="29"
+                data-source-line-end="29"
+                >🏢</span
+              ><span
+                data-source-file="src/components/factory-detail/ParkInfoCard.vue"
+                data-source-line-start="30"
+                data-source-line-end="30"
+                >所属园区</span
+              ><!--]-->
+            </h3>
+            <!--]-->
+          </div>
+          <div
+            class="p-6 pt-0 space-y-4"
+            data-source-file="src/components/ui/card/CardContent.vue"
+            data-source-line-start="11"
+            data-source-line-end="13"
+          >
+            <!--[-->
+            <div
+              data-source-file="src/components/factory-detail/ParkInfoCard.vue"
+              data-source-line-start="35"
+              data-source-line-end="38"
+            >
+              <h3
+                class="text-lg font-semibold text-foreground mb-1"
+                data-source-file="src/components/factory-detail/ParkInfoCard.vue"
+                data-source-line-start="36"
+                data-source-line-end="36"
+              >
+                张江科学城
+              </h3>
+              <p
+                class="text-xs text-muted-foreground"
+                data-source-file="src/components/factory-detail/ParkInfoCard.vue"
+                data-source-line-start="37"
+                data-source-line-end="37"
+              >
+                政府备案产业园区
+              </p>
+            </div>
+            <div
+              class="space-y-2"
+              data-source-file="src/components/factory-detail/ParkInfoCard.vue"
+              data-source-line-start="41"
+              data-source-line-end="58"
+            >
+              <p
+                class="text-xs font-medium text-muted-foreground"
+                data-source-file="src/components/factory-detail/ParkInfoCard.vue"
+                data-source-line-start="42"
+                data-source-line-end="42"
+              >
+                主导产业
+              </p>
+              <div
+                class="flex flex-wrap gap-1"
+                data-source-file="src/components/factory-detail/ParkInfoCard.vue"
+                data-source-line-start="43"
+                data-source-line-end="57"
+              >
+                <!--[--><span
+                  class="px-2 py-1 bg-muted text-muted-foreground text-xs rounded"
+                  data-source-file="src/components/factory-detail/ParkInfoCard.vue"
+                  data-source-line-start="44"
+                  data-source-line-end="50"
+                  >集成电路</span
+                ><span
+                  class="px-2 py-1 bg-muted text-muted-foreground text-xs rounded"
+                  data-source-file="src/components/factory-detail/ParkInfoCard.vue"
+                  data-source-line-start="44"
+                  data-source-line-end="50"
+                  >电子信息</span
+                ><span
+                  class="px-2 py-1 bg-muted text-muted-foreground text-xs rounded"
+                  data-source-file="src/components/factory-detail/ParkInfoCard.vue"
+                  data-source-line-start="44"
+                  data-source-line-end="50"
+                  >精密仪器</span
+                ><!--]--><!---->
+              </div>
+            </div>
+            <button
+              class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full mt-2"
+              data-source-file="src/components/ui/button/Button.vue"
+              data-source-line-start="21"
+              data-source-line-end="27"
+            >
+              <!--[--><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide mr-2 lucide-arrow-right-icon lucide-arrow-right mr-2"
+                data-source-file="src/components/common/SafeIcon.vue"
+                data-source-line-start="41"
+                data-source-line-end="47"
+              >
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+              查看园区详情
+              <!--]--></button
+            ><!--]-->
+          </div>
+          <!--]-->
+        </div>
+        <div
+          class="space-y-3"
+          data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+          data-source-line-start="138"
+          data-source-line-end="149"
+        >
+          <h3
+            class="text-sm font-semibold text-foreground"
+            data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+            data-source-line-start="139"
+            data-source-line-end="139"
+          >
+            适合产业
+          </h3>
+          <div
+            class="flex flex-wrap gap-2"
+            data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+            data-source-line-start="140"
+            data-source-line-end="148"
+          >
+            <!--[--><span
+              class="px-3 py-1 bg-secondary/10 text-secondary text-xs rounded-full font-medium"
+              data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+              data-source-line-start="141"
+              data-source-line-end="147"
+              >集成电路</span
+            ><span
+              class="px-3 py-1 bg-secondary/10 text-secondary text-xs rounded-full font-medium"
+              data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+              data-source-line-start="141"
+              data-source-line-end="147"
+              >电子信息</span
+            ><span
+              class="px-3 py-1 bg-secondary/10 text-secondary text-xs rounded-full font-medium"
+              data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+              data-source-line-start="141"
+              data-source-line-end="147"
+              >精密仪器</span
+            ><!--]-->
+          </div>
+        </div>
+        <div
+          id="factory-amenities"
+          class="scroll-mt-32"
+          data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+          data-source-line-start="152"
+          data-source-line-end="154"
+        >
+          <div
+            class="rounded-lg border bg-card text-card-foreground shadow-sm border-border overflow-hidden"
+            data-source-file="src/components/ui/card/Card.vue"
+            data-source-line-start="11"
+            data-source-line-end="20"
+            data-v-55f6db81=""
+          >
+            <!--[-->
+            <div
+              class="flex flex-col gap-y-1.5 p-6 pb-2"
+              data-source-file="src/components/ui/card/CardHeader.vue"
+              data-source-line-start="11"
+              data-source-line-end="13"
+              data-v-55f6db81=""
+            >
+              <!--[-->
+              <h3
+                class="tracking-tight text-sm font-semibold flex items-center gap-2"
+                data-source-file="src/components/ui/card/CardTitle.vue"
+                data-source-line-start="11"
+                data-source-line-end="17"
+                data-v-55f6db81=""
+              >
+                <!--[--><span
+                  class="w-1 h-4 bg-primary rounded-full"
+                  data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                  data-source-line-start="49"
+                  data-source-line-end="49"
+                  data-v-55f6db81=""
+                ></span>
+                厂房配套设施
+                <!--]-->
+              </h3>
+              <!--]-->
+            </div>
+            <div
+              class="p-0"
+              data-source-file="src/components/ui/card/CardContent.vue"
+              data-source-line-start="11"
+              data-source-line-end="13"
+              data-v-55f6db81=""
+            >
+              <!--[-->
+              <div
+                class="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide py-3 cursor-grab"
+                data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                data-source-line-start="54"
+                data-source-line-end="74"
+                data-v-55f6db81=""
+              >
+                <!--[-->
+                <div
+                  class="min-w-full snap-center grid grid-cols-5 grid-rows-2 gap-y-5 px-3"
+                  data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                  data-source-line-start="58"
+                  data-source-line-end="73"
+                  data-v-55f6db81=""
+                >
+                  <!--[-->
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-house-icon lucide-house"
+                      >
+                        <path
+                          d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"
+                        ></path>
+                        <path
+                          d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >公寓</span
+                    >
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-train-front-icon lucide-train-front"
+                      >
+                        <path d="M8 3.1V7a4 4 0 0 0 8 0V3.1"></path>
+                        <path d="m9 15-1-1"></path>
+                        <path d="m15 15 1-1"></path>
+                        <path
+                          d="M9 19c-2.8 0-5-2.2-5-5v-4a8 8 0 0 1 16 0v4c0 2.8-2.2 5-5 5Z"
+                        ></path>
+                        <path d="m8 19-2 3"></path>
+                        <path d="m16 19 2 3"></path>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >地铁</span
+                    >
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-bus-icon lucide-bus"
+                      >
+                        <path d="M8 6v6"></path>
+                        <path d="M15 6v6"></path>
+                        <path d="M2 12h19.6"></path>
+                        <path
+                          d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3"
+                        ></path>
+                        <circle cx="7" cy="18" r="2"></circle>
+                        <path d="M9 18h5"></path>
+                        <circle cx="16" cy="18" r="2"></circle>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >公交</span
+                    >
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-utensils-icon lucide-utensils"
+                      >
+                        <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path>
+                        <path d="M7 2v20"></path>
+                        <path
+                          d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >食堂</span
+                    >
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-bed-icon lucide-bed"
+                      >
+                        <path d="M2 4v16"></path>
+                        <path d="M2 8h18a2 2 0 0 1 2 2v10"></path>
+                        <path d="M2 17h20"></path>
+                        <path d="M6 8v9"></path>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >宿舍</span
+                    >
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-users-icon lucide-users"
+                      >
+                        <path
+                          d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
+                        ></path>
+                        <path d="M16 3.128a4 4 0 0 1 0 7.744"></path>
+                        <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >会议室</span
+                    >
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-square-parking-icon lucide-square-parking"
+                      >
+                        <rect width="18" height="18" x="3" y="3" rx="2"></rect>
+                        <path d="M9 17V7h4a3 3 0 0 1 0 6H9"></path>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >停车位</span
+                    >
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-warehouse-icon lucide-warehouse"
+                      >
+                        <path
+                          d="M18 21V10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v11"
+                        ></path>
+                        <path
+                          d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 1.132-1.803l7.95-3.974a2 2 0 0 1 1.837 0l7.948 3.974A2 2 0 0 1 22 8z"
+                        ></path>
+                        <path d="M6 13h12"></path>
+                        <path d="M6 17h12"></path>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >地下车库</span
+                    >
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-zap-icon lucide-zap"
+                      >
+                        <path
+                          d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >充电桩</span
+                    >
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-shopping-bag-icon lucide-shopping-bag"
+                      >
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        <path d="M3.103 6.034h17.794"></path>
+                        <path
+                          d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >商业街</span
+                    >
+                  </div>
+                  <!--]-->
+                </div>
+                <div
+                  class="min-w-full snap-center grid grid-cols-5 grid-rows-2 gap-y-5 px-3"
+                  data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                  data-source-line-start="58"
+                  data-source-line-end="73"
+                  data-v-55f6db81=""
+                >
+                  <!--[-->
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-truck-icon lucide-truck"
+                      >
+                        <path
+                          d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"
+                        ></path>
+                        <path d="M15 18H9"></path>
+                        <path
+                          d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"
+                        ></path>
+                        <circle cx="17" cy="18" r="2"></circle>
+                        <circle cx="7" cy="18" r="2"></circle>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >卸货月台</span
+                    >
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-wind-icon lucide-wind"
+                      >
+                        <path d="M12.8 19.6A2 2 0 1 0 14 16H2"></path>
+                        <path d="M17.5 8a2.5 2.5 0 1 1 2 4H2"></path>
+                        <path d="M9.8 4.4A2 2 0 1 1 11 8H2"></path>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >蒸汽管道</span
+                    >
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-zap-icon lucide-zap"
+                      >
+                        <path
+                          d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >配电房</span
+                    >
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-flame-icon lucide-flame"
+                      >
+                        <path
+                          d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >天然气</span
+                    >
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-shield-check-icon lucide-shield-check"
+                      >
+                        <path
+                          d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                        ></path>
+                        <path d="m9 12 2 2 4-4"></path>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >安保</span
+                    >
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-wifi-icon lucide-wifi"
+                      >
+                        <path d="M12 20h.01"></path>
+                        <path d="M2 8.82a15 15 0 0 1 20 0"></path>
+                        <path d="M5 12.859a10 10 0 0 1 14 0"></path>
+                        <path d="M8.5 16.429a5 5 0 0 1 7 0"></path>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >宽带</span
+                    >
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-droplets-icon lucide-droplets"
+                      >
+                        <path
+                          d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z"
+                        ></path>
+                        <path
+                          d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >供水</span
+                    >
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-activity-icon lucide-activity"
+                      >
+                        <path
+                          d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >排污</span
+                    >
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-trees-icon lucide-trees"
+                      >
+                        <path
+                          d="M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z"
+                        ></path>
+                        <path d="M7 16v6"></path>
+                        <path d="M13 19v3"></path>
+                        <path
+                          d="M12 19h8.3a1 1 0 0 0 .7-1.7L18 14h.3a1 1 0 0 0 .7-1.7L16 9h.2a1 1 0 0 0 .8-1.7L13 3l-1.4 1.5"
+                        ></path>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >绿化</span
+                    >
+                  </div>
+                  <div
+                    class="flex flex-col items-center justify-center gap-1.5"
+                    data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                    data-source-line-start="63"
+                    data-source-line-end="72"
+                    data-v-55f6db81=""
+                  >
+                    <div
+                      class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary/10 transition-colors"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="68"
+                      data-source-line-end="70"
+                      data-v-55f6db81=""
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        data-source-file="src/components/common/SafeIcon.vue"
+                        data-source-line-start="41"
+                        data-source-line-end="47"
+                        data-v-55f6db81=""
+                        class="lucide lucide-circle-icon lucide-circle"
+                      >
+                        <circle cx="12" cy="12" r="10"></circle>
+                      </svg>
+                    </div>
+                    <span
+                      class="text-[11px] text-muted-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                      data-source-line-start="71"
+                      data-source-line-end="71"
+                      data-v-55f6db81=""
+                      >消防</span
+                    >
+                  </div>
+                  <!--]-->
+                </div>
+                <!--]-->
+              </div>
+              <div
+                class="flex justify-center gap-1.5 pb-4"
+                data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                data-source-line-start="77"
+                data-source-line-end="84"
+                data-v-55f6db81=""
+              >
+                <!--[-->
+                <div
+                  class="bg-primary w-3 w-1.5 h-1.5 rounded-full transition-all duration-300"
+                  data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                  data-source-line-start="78"
+                  data-source-line-end="83"
+                  data-v-55f6db81=""
+                ></div>
+                <div
+                  class="bg-muted w-1.5 h-1.5 rounded-full transition-all duration-300"
+                  data-source-file="src/components/factory-detail/FactoryAmenities.vue"
+                  data-source-line-start="78"
+                  data-source-line-end="83"
+                  data-v-55f6db81=""
+                ></div>
+                <!--]-->
+              </div>
+              <!--]-->
+            </div>
+            <!--]-->
+          </div>
+        </div>
+        <div
+          id="factory-photos"
+          class="scroll-mt-32"
+          data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+          data-source-line-start="157"
+          data-source-line-end="159"
+        >
+          <div
+            class="rounded-lg border bg-card text-card-foreground shadow-sm border-border overflow-hidden"
+            data-source-file="src/components/ui/card/Card.vue"
+            data-source-line-start="11"
+            data-source-line-end="20"
+            data-v-0092c812=""
+          >
+            <!--[-->
+            <div
+              class="flex flex-col gap-y-1.5 p-6 pb-3 px-4 pt-4"
+              data-source-file="src/components/ui/card/CardHeader.vue"
+              data-source-line-start="11"
+              data-source-line-end="13"
+              data-v-0092c812=""
+            >
+              <!--[-->
+              <h3
+                class="tracking-tight text-sm font-semibold flex items-center gap-2"
+                data-source-file="src/components/ui/card/CardTitle.vue"
+                data-source-line-start="11"
+                data-source-line-end="17"
+                data-v-0092c812=""
+              >
+                <!--[--><span
+                  class="w-1 h-4 bg-primary rounded-full"
+                  data-source-file="src/components/factory-detail/FactoryPhotos.vue"
+                  data-source-line-start="29"
+                  data-source-line-end="29"
+                  data-v-0092c812=""
+                ></span>
+                厂房图片
+                <!--]-->
+              </h3>
+              <!--]-->
+            </div>
+            <div
+              class="p-6 pt-0 px-0 pb-4"
+              data-source-file="src/components/ui/card/CardContent.vue"
+              data-source-line-start="11"
+              data-source-line-end="13"
+              data-v-0092c812=""
+            >
+              <!--[-->
+              <div
+                class="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide"
+                data-source-file="src/components/factory-detail/FactoryPhotos.vue"
+                data-source-line-start="34"
+                data-source-line-end="50"
+                data-v-0092c812=""
+              >
+                <div
+                  class="min-w-full snap-center grid grid-cols-3 gap-2 px-4 focus:outline-none"
+                  data-source-file="src/components/factory-detail/FactoryPhotos.vue"
+                  data-source-line-start="39"
+                  data-source-line-end="43"
+                  data-v-0092c812=""
+                >
+                  <!--[-->
+                  <div
+                    class="aspect-[4/3] rounded-md overflow-hidden bg-muted"
+                    data-source-file="src/components/factory-detail/FactoryPhotos.vue"
+                    data-source-line-start="40"
+                    data-source-line-end="42"
+                    data-v-0092c812=""
+                  >
+                    <img
+                      src="https://spark-builder.s3.cn-north-1.amazonaws.com.cn/image/2026/2/28/5330c716-481e-44f7-a73d-e6572c0d37e5.png"
+                      class="w-full h-full object-cover"
+                      alt="厂房实景"
+                      data-source-file="src/components/factory-detail/FactoryPhotos.vue"
+                      data-source-line-start="41"
+                      data-source-line-end="41"
+                      data-v-0092c812=""
+                    />
+                  </div>
+                  <div
+                    class="aspect-[4/3] rounded-md overflow-hidden bg-muted"
+                    data-source-file="src/components/factory-detail/FactoryPhotos.vue"
+                    data-source-line-start="40"
+                    data-source-line-end="42"
+                    data-v-0092c812=""
+                  >
+                    <img
+                      src="https://spark-builder.s3.cn-north-1.amazonaws.com.cn/image/2026/2/28/a7b4385a-ea5e-4208-b260-73828f7e49d6.png"
+                      class="w-full h-full object-cover"
+                      alt="厂房实景"
+                      data-source-file="src/components/factory-detail/FactoryPhotos.vue"
+                      data-source-line-start="41"
+                      data-source-line-end="41"
+                      data-v-0092c812=""
+                    />
+                  </div>
+                  <div
+                    class="aspect-[4/3] rounded-md overflow-hidden bg-muted"
+                    data-source-file="src/components/factory-detail/FactoryPhotos.vue"
+                    data-source-line-start="40"
+                    data-source-line-end="42"
+                    data-v-0092c812=""
+                  >
+                    <img
+                      src="https://spark-builder.s3.cn-north-1.amazonaws.com.cn/image/2026/2/28/d5647a48-3704-459b-a021-b1242eb2ed1d.png"
+                      class="w-full h-full object-cover"
+                      alt="厂房实景"
+                      data-source-file="src/components/factory-detail/FactoryPhotos.vue"
+                      data-source-line-start="41"
+                      data-source-line-end="41"
+                      data-v-0092c812=""
+                    />
+                  </div>
+                  <!--]-->
+                </div>
+                <div
+                  class="min-w-full snap-center grid grid-cols-3 gap-2 px-4 focus:outline-none"
+                  data-source-file="src/components/factory-detail/FactoryPhotos.vue"
+                  data-source-line-start="45"
+                  data-source-line-end="49"
+                  data-v-0092c812=""
+                >
+                  <!--[-->
+                  <div
+                    class="aspect-[4/3] rounded-md overflow-hidden bg-muted"
+                    data-source-file="src/components/factory-detail/FactoryPhotos.vue"
+                    data-source-line-start="46"
+                    data-source-line-end="48"
+                    data-v-0092c812=""
+                  >
+                    <img
+                      src="https://spark-builder.s3.cn-north-1.amazonaws.com.cn/image/2026/2/28/86a9ec4c-5441-4969-8a79-a62d011bc68b.png"
+                      class="w-full h-full object-cover"
+                      alt="厂房实景"
+                      data-source-file="src/components/factory-detail/FactoryPhotos.vue"
+                      data-source-line-start="47"
+                      data-source-line-end="47"
+                      data-v-0092c812=""
+                    />
+                  </div>
+                  <div
+                    class="aspect-[4/3] rounded-md overflow-hidden bg-muted"
+                    data-source-file="src/components/factory-detail/FactoryPhotos.vue"
+                    data-source-line-start="46"
+                    data-source-line-end="48"
+                    data-v-0092c812=""
+                  >
+                    <img
+                      src="https://spark-builder.s3.cn-north-1.amazonaws.com.cn/image/2026/2/28/c9b7d289-520b-4667-837b-dc0528ac2918.png"
+                      class="w-full h-full object-cover"
+                      alt="厂房实景"
+                      data-source-file="src/components/factory-detail/FactoryPhotos.vue"
+                      data-source-line-start="47"
+                      data-source-line-end="47"
+                      data-v-0092c812=""
+                    />
+                  </div>
+                  <div
+                    class="aspect-[4/3] rounded-md overflow-hidden bg-muted"
+                    data-source-file="src/components/factory-detail/FactoryPhotos.vue"
+                    data-source-line-start="46"
+                    data-source-line-end="48"
+                    data-v-0092c812=""
+                  >
+                    <img
+                      src="https://spark-builder.s3.cn-north-1.amazonaws.com.cn/image/2026/2/28/6347c480-cef3-49b1-a335-a3f1e8144b08.png"
+                      class="w-full h-full object-cover"
+                      alt="厂房实景"
+                      data-source-file="src/components/factory-detail/FactoryPhotos.vue"
+                      data-source-line-start="47"
+                      data-source-line-end="47"
+                      data-v-0092c812=""
+                    />
+                  </div>
+                  <!--]-->
+                </div>
+              </div>
+              <div
+                class="flex justify-center gap-1.5 mt-4"
+                data-source-file="src/components/factory-detail/FactoryPhotos.vue"
+                data-source-line-start="53"
+                data-source-line-end="60"
+                data-v-0092c812=""
+              >
+                <!--[-->
+                <div
+                  class="bg-primary w-3 w-1.5 h-1.5 rounded-full transition-all duration-300"
+                  data-source-file="src/components/factory-detail/FactoryPhotos.vue"
+                  data-source-line-start="54"
+                  data-source-line-end="59"
+                  data-v-0092c812=""
+                ></div>
+                <div
+                  class="bg-muted w-1.5 h-1.5 rounded-full transition-all duration-300"
+                  data-source-file="src/components/factory-detail/FactoryPhotos.vue"
+                  data-source-line-start="54"
+                  data-source-line-end="59"
+                  data-v-0092c812=""
+                ></div>
+                <!--]-->
+              </div>
+              <!--]-->
+            </div>
+            <!--]-->
+          </div>
+        </div>
+        <div
+          class="rounded-lg border bg-card text-card-foreground shadow-sm border-border overflow-hidden"
+          data-source-file="src/components/ui/card/Card.vue"
+          data-source-line-start="11"
+          data-source-line-end="20"
+        >
+          <!--[-->
+          <div
+            class="flex flex-col gap-y-1.5 p-6 pb-3 px-4 pt-4"
+            data-source-file="src/components/ui/card/CardHeader.vue"
+            data-source-line-start="11"
+            data-source-line-end="13"
+          >
+            <!--[-->
+            <h3
+              class="tracking-tight text-sm font-semibold flex items-center gap-2"
+              data-source-file="src/components/ui/card/CardTitle.vue"
+              data-source-line-start="11"
+              data-source-line-end="17"
+            >
+              <!--[--><span
+                class="w-1 h-4 bg-primary rounded-full"
+                data-source-file="src/components/factory-detail/FactoryLongDescription.vue"
+                data-source-line-start="12"
+                data-source-line-end="12"
+              ></span>
+              详细信息
+              <!--]-->
+            </h3>
+            <!--]-->
+          </div>
+          <div
+            class="p-6 pt-0 px-4 pb-5"
+            data-source-file="src/components/ui/card/CardContent.vue"
+            data-source-line-start="11"
+            data-source-line-end="13"
+          >
+            <!--[-->
+            <p
+              class="text-sm text-muted-foreground leading-relaxed text-justify"
+              data-source-file="src/components/factory-detail/FactoryLongDescription.vue"
+              data-source-line-start="17"
+              data-source-line-end="19"
+            >
+              该厂房位于产业园核心区域，采用高标准现代化工业设计。底层承重高达2.0吨/㎡，二层及以上承重1.2吨/㎡，完美适配精密制造与自动化组装线需求。建筑采用全钢筋混凝土框架结构，柱距设计开阔（8m
+              x
+              9m），极大提升了内部空间的灵活布局能力与利用率。厂房配备两部3吨品牌载重货梯，垂直物流效率行业领先。内部已预留多路双冗余供电系统及充足的配电容量，特别适合集成电路、生物医药研发及智能装备制造等高新技术产业拎包入驻。周边产业生态成熟，科研人才储备雄厚，园区内配套有高标准人才公寓、品牌餐饮及24小时便利商业，是各大企业设立华东总部或生产中心、研发基地的首选理想之所。
+            </p>
+            <!--]-->
+          </div>
+          <!--]-->
+        </div>
+        <div
+          id="factory-location"
+          class="scroll-mt-32"
+          data-source-file="src/components/factory-detail/FactoryDetailContent.vue"
+          data-source-line-start="163"
+          data-source-line-end="165"
+        >
+          <div
+            class="rounded-lg border bg-card text-card-foreground shadow-sm border-border overflow-hidden"
+            data-source-file="src/components/ui/card/Card.vue"
+            data-source-line-start="11"
+            data-source-line-end="20"
+          >
+            <!--[-->
+            <div
+              class="flex flex-col gap-y-1.5 p-6 pb-3 px-4 pt-4"
+              data-source-file="src/components/ui/card/CardHeader.vue"
+              data-source-line-start="11"
+              data-source-line-end="13"
+            >
+              <!--[-->
+              <h3
+                class="tracking-tight text-sm font-semibold flex items-center gap-2"
+                data-source-file="src/components/ui/card/CardTitle.vue"
+                data-source-line-start="11"
+                data-source-line-end="17"
+              >
+                <!--[--><span
+                  class="w-1 h-4 bg-primary rounded-full"
+                  data-source-file="src/components/factory-detail/FactoryLocationTabs.vue"
+                  data-source-line-start="18"
+                  data-source-line-end="18"
+                ></span>
+                位置信息
+                <!--]-->
+              </h3>
+              <!--]-->
+            </div>
+            <div
+              class="p-6 pt-0 px-4 pb-5"
+              data-source-file="src/components/ui/card/CardContent.vue"
+              data-source-line-start="11"
+              data-source-line-end="13"
+            >
+              <!--[-->
+              <div
+                dir="ltr"
+                data-orientation="horizontal"
+                class="w-full"
+                data-source-file="src/components/ui/tabs/Tabs.vue"
+                data-source-line-start="12"
+                data-source-line-end="14"
+              >
+                <!--[--><!--[-->
+                <div
+                  class="items-center justify-center rounded-md p-1 text-muted-foreground grid w-full grid-cols-4 h-9 bg-muted/30"
+                  data-source-file="src/components/ui/tabs/TabsList.vue"
+                  data-source-line-start="14"
+                  data-source-line-end="22"
+                  tabindex="0"
+                  data-orientation="horizontal"
+                  dir="ltr"
+                  style="outline: none"
+                  role="tablist"
+                  aria-orientation="horizontal"
+                >
+                  <!--[--><!--[--><button
+                    class="inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm text-[11px]"
+                    data-source-file="src/components/ui/tabs/TabsTrigger.vue"
+                    data-source-line-start="16"
+                    data-source-line-end="26"
+                    data-reka-collection-item=""
+                    tabindex="-1"
+                    data-orientation="horizontal"
+                    data-active=""
+                    id="reka-tabs-s1-0-trigger-coords"
+                    role="tab"
+                    type="button"
+                    aria-selected="true"
+                    aria-controls="reka-tabs-s1-0-content-coords"
+                    data-state="active"
+                  >
+                    <!--[--><span
+                      class="truncate"
+                      data-source-file="src/components/ui/tabs/TabsTrigger.vue"
+                      data-source-line-start="23"
+                      data-source-line-end="25"
+                      ><!--[-->地理坐标<!--]--></span
+                    ><!--]--></button
+                  ><button
+                    class="inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm text-[11px]"
+                    data-source-file="src/components/ui/tabs/TabsTrigger.vue"
+                    data-source-line-start="16"
+                    data-source-line-end="26"
+                    data-reka-collection-item=""
+                    tabindex="-1"
+                    data-orientation="horizontal"
+                    id="reka-tabs-s1-0-trigger-expressway"
+                    role="tab"
+                    type="button"
+                    aria-selected="false"
+                    aria-controls="reka-tabs-s1-0-content-expressway"
+                    data-state="inactive"
+                  >
+                    <!--[--><span
+                      class="truncate"
+                      data-source-file="src/components/ui/tabs/TabsTrigger.vue"
+                      data-source-line-start="23"
+                      data-source-line-end="25"
+                      ><!--[-->附近高速<!--]--></span
+                    ><!--]--></button
+                  ><button
+                    class="inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm text-[11px]"
+                    data-source-file="src/components/ui/tabs/TabsTrigger.vue"
+                    data-source-line-start="16"
+                    data-source-line-end="26"
+                    data-reka-collection-item=""
+                    tabindex="-1"
+                    data-orientation="horizontal"
+                    id="reka-tabs-s1-0-trigger-railway"
+                    role="tab"
+                    type="button"
+                    aria-selected="false"
+                    aria-controls="reka-tabs-s1-0-content-railway"
+                    data-state="inactive"
+                  >
+                    <!--[--><span
+                      class="truncate"
+                      data-source-file="src/components/ui/tabs/TabsTrigger.vue"
+                      data-source-line-start="23"
+                      data-source-line-end="25"
+                      ><!--[-->高铁地图<!--]--></span
+                    ><!--]--></button
+                  ><button
+                    class="inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm text-[11px]"
+                    data-source-file="src/components/ui/tabs/TabsTrigger.vue"
+                    data-source-line-start="16"
+                    data-source-line-end="26"
+                    data-reka-collection-item=""
+                    tabindex="-1"
+                    data-orientation="horizontal"
+                    id="reka-tabs-s1-0-trigger-bus"
+                    role="tab"
+                    type="button"
+                    aria-selected="false"
+                    aria-controls="reka-tabs-s1-0-content-bus"
+                    data-state="inactive"
+                  >
+                    <!--[--><span
+                      class="truncate"
+                      data-source-file="src/components/ui/tabs/TabsTrigger.vue"
+                      data-source-line-start="23"
+                      data-source-line-end="25"
+                      ><!--[-->公交线路<!--]--></span
+                    ><!--]--></button
+                  ><!--]--><!--]-->
+                </div>
+                <div
+                  id="reka-tabs-s1-0-content-coords"
+                  role="tabpanel"
+                  data-state="active"
+                  data-orientation="horizontal"
+                  aria-labelledby="reka-tabs-s1-0-trigger-coords"
+                  tabindex="0"
+                  style=""
+                  class="ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 mt-4 space-y-3"
+                  data-source-file="src/components/ui/tabs/TabsContent.vue"
+                  data-source-line-start="14"
+                  data-source-line-end="19"
+                >
+                  <!--[--><!--[-->
+                  <div
+                    class="aspect-[2/1] bg-muted rounded-lg overflow-hidden border border-border relative"
+                    data-source-file="src/components/factory-detail/FactoryLocationTabs.vue"
+                    data-source-line-start="32"
+                    data-source-line-end="43"
+                  >
+                    <img
+                      src="https://spark-builder.s3.cn-north-1.amazonaws.com.cn/image/2026/2/28/19fd7568-8147-48bf-88ed-ec53c9d1c282.png"
+                      class="w-full h-full object-cover"
+                      alt="位置地图"
+                      data-source-file="src/components/factory-detail/FactoryLocationTabs.vue"
+                      data-source-line-start="33"
+                      data-source-line-end="37"
+                    />
+                    <div
+                      class="absolute inset-0 flex items-center justify-center"
+                      data-source-file="src/components/factory-detail/FactoryLocationTabs.vue"
+                      data-source-line-start="38"
+                      data-source-line-end="42"
+                    >
+                      <div
+                        class="bg-primary/90 text-white p-2 rounded-full shadow-lg animate-bounce"
+                        data-source-file="src/components/factory-detail/FactoryLocationTabs.vue"
+                        data-source-line-start="39"
+                        data-source-line-end="41"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          data-source-file="src/components/common/SafeIcon.vue"
+                          data-source-line-start="41"
+                          data-source-line-end="47"
+                          class="lucide lucide-map-pin-icon lucide-map-pin"
+                        >
+                          <path
+                            d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                          ></path>
+                          <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flex items-start gap-2"
+                    data-source-file="src/components/factory-detail/FactoryLocationTabs.vue"
+                    data-source-line-start="44"
+                    data-source-line-end="47"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide text-primary mt-0.5 lucide-navigation-icon lucide-navigation text-primary mt-0.5"
+                      data-source-file="src/components/common/SafeIcon.vue"
+                      data-source-line-start="41"
+                      data-source-line-end="47"
+                    >
+                      <polygon
+                        points="3 11 22 2 13 21 11 13 3 11"
+                      ></polygon></svg
+                    ><span
+                      class="text-xs text-foreground font-medium"
+                      data-source-file="src/components/factory-detail/FactoryLocationTabs.vue"
+                      data-source-line-start="46"
+                      data-source-line-end="46"
+                      >上海市浦东新区张江科学城</span
+                    >
+                  </div>
+                  <!--]--><!--]-->
+                </div>
+                <div
+                  id="reka-tabs-s1-0-content-expressway"
+                  role="tabpanel"
+                  data-state="inactive"
+                  data-orientation="horizontal"
+                  aria-labelledby="reka-tabs-s1-0-trigger-expressway"
+                  hidden=""
+                  tabindex="0"
+                  style=""
+                  class="ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 mt-4"
+                  data-source-file="src/components/ui/tabs/TabsContent.vue"
+                  data-source-line-start="14"
+                  data-source-line-end="19"
+                >
+                  <!--v-if-->
+                </div>
+                <div
+                  id="reka-tabs-s1-0-content-railway"
+                  role="tabpanel"
+                  data-state="inactive"
+                  data-orientation="horizontal"
+                  aria-labelledby="reka-tabs-s1-0-trigger-railway"
+                  hidden=""
+                  tabindex="0"
+                  style=""
+                  class="ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 mt-4"
+                  data-source-file="src/components/ui/tabs/TabsContent.vue"
+                  data-source-line-start="14"
+                  data-source-line-end="19"
+                >
+                  <!--v-if-->
+                </div>
+                <div
+                  id="reka-tabs-s1-0-content-bus"
+                  role="tabpanel"
+                  data-state="inactive"
+                  data-orientation="horizontal"
+                  aria-labelledby="reka-tabs-s1-0-trigger-bus"
+                  hidden=""
+                  tabindex="0"
+                  style=""
+                  class="ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 mt-4"
+                  data-source-file="src/components/ui/tabs/TabsContent.vue"
+                  data-source-line-start="14"
+                  data-source-line-end="19"
+                >
+                  <!--v-if-->
+                </div>
+                <!--]--><!--]-->
+              </div>
+              <!--]-->
+            </div>
+            <!--]-->
+          </div>
+        </div>
+      </div>
+      <div
+        class="fixed bottom-0 left-0 right-0 z-40 bg-background/95 backdrop-blur-sm border-t border-border shadow-lg pb-safe"
+        data-source-file="src/components/factory-detail/FactoryDetailFooter.vue"
+        data-source-line-start="88"
+        data-source-line-end="187"
+      >
+        <div
+          class="flex gap-2 p-3 max-w-md mx-auto items-center"
+          data-source-file="src/components/factory-detail/FactoryDetailFooter.vue"
+          data-source-line-start="92"
+          data-source-line-end="121"
+        >
+          <button
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border bg-transparent hover:bg-accent hover:text-accent-foreground py-2 flex-1 h-11 px-2 text-[13px] border-primary/30 text-primary"
+            data-source-file="src/components/ui/button/Button.vue"
+            data-source-line-start="21"
+            data-source-line-end="27"
+          >
+            <!--[--><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide animate-shake lucide-message-circle-icon lucide-message-circle animate-shake"
+              data-source-file="src/components/common/SafeIcon.vue"
+              data-source-line-start="41"
+              data-source-line-end="47"
+            >
+              <path
+                d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"
+              ></path>
+            </svg>
+            咨询AI
+            <!--]--></button
+          ><button
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 py-2 flex-1 h-11 px-2 text-[13px] bg-secondary/10 text-secondary border border-secondary/20 hover:bg-secondary/20"
+            data-source-file="src/components/ui/button/Button.vue"
+            data-source-line-start="21"
+            data-source-line-end="27"
+          >
+            <!--[--><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              data-source-file="src/components/common/SafeIcon.vue"
+              data-source-line-start="41"
+              data-source-line-end="47"
+              class="lucide lucide-calendar-icon lucide-calendar"
+            >
+              <path d="M8 2v4"></path>
+              <path d="M16 2v4"></path>
+              <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+              <path d="M3 10h18"></path>
+            </svg>
+            预约参观
+            <!--]--></button
+          ><button
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary hover:bg-primary/90 py-2 flex-1 h-11 px-2 text-[13px] gradient-primary text-primary-foreground shadow-sm"
+            data-source-file="src/components/ui/button/Button.vue"
+            data-source-line-start="21"
+            data-source-line-end="27"
+          >
+            <!--[--><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              data-source-file="src/components/common/SafeIcon.vue"
+              data-source-line-start="41"
+              data-source-line-end="47"
+              class="lucide lucide-phone-icon lucide-phone"
+            >
+              <path
+                d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+              ></path>
+            </svg>
+            园区直联
+            <!--]-->
+          </button>
+        </div>
+        <!--[--><!--[--><!--]--><!--]-->
+      </div>
+    </main>
+  </body>
+</html>

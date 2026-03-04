@@ -1,0 +1,102 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/invest/index",
+      "style": {
+        "navigationBarTitleText": "产业招商"
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    }
+  ],
+  "globalStyle": {
+    "backgroundColor": "#f5f7fb",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "产业服务平台"
+  },
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#003367",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/invest/index",
+        "text": "产业招商",
+        "iconPath": "static/tabbar/invest.png",
+        "selectedIconPath": "static/tabbar/invest-active.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "static/tabbar/mine.png",
+        "selectedIconPath": "static/tabbar/mine-active.png"
+      }
+    ]
+  },
+  "subPackages": [
+    {
+      "root": "package-invest",
+      "pages": [
+        {
+          "path": "pages/project-list/index",
+          "style": {
+            "navigationBarTitleText": "招商项目列表"
+          }
+        },
+        {
+          "path": "pages/project-detail/index",
+          "style": {
+            "navigationBarTitleText": "招商项目详情"
+          }
+        },
+        {
+          "path": "pages/park-detail/index",
+          "style": {
+            "navigationBarTitleText": "园区详情"
+          }
+        },
+        {
+          "path": "pages/factory-list/index",
+          "style": {
+            "navigationBarTitleText": "厂房列表"
+          }
+        },
+        {
+          "path": "pages/factory-detail/index",
+          "style": {
+            "navigationBarTitleText": "厂房详情"
+          }
+        }
+      ]
+    },
+    {
+      "root": "package-mine",
+      "pages": [
+        {
+          "path": "pages/settings/index",
+          "style": {
+            "navigationBarTitleText": "设置"
+          }
+        }
+      ]
+    }
+  ]
+}

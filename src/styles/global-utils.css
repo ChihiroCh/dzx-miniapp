@@ -1,0 +1,180 @@
+/* Global utility classes for uni-app mini program */
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+  box-sizing: border-box;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 20rpx;
+  box-shadow: 0 8rpx 24rpx rgba(16, 24, 40, 0.08);
+}
+
+.gradient-primary {
+  background: linear-gradient(135deg, #003367 0%, #4aa3ff 100%);
+}
+
+.gradient-accent {
+  background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%);
+}
+
+.text-primary {
+  color: #003367;
+}
+
+.text-muted {
+  color: #6c7480;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mt-8 {
+  margin-top: 8rpx;
+}
+
+.mt-12 {
+  margin-top: 12rpx;
+}
+
+.mt-16 {
+  margin-top: 16rpx;
+}
+
+.mt-24 {
+  margin-top: 24rpx;
+}
+
+.mb-8 {
+  margin-bottom: 8rpx;
+}
+
+.mb-12 {
+  margin-bottom: 12rpx;
+}
+
+.mb-16 {
+  margin-bottom: 16rpx;
+}
+
+.p-16 {
+  padding: 16rpx;
+}
+
+.p-24 {
+  padding: 24rpx;
+}
+
+.p-32 {
+  padding: 32rpx;
+}
+
+.px-24 {
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+}
+
+.py-16 {
+  padding-top: 16rpx;
+  padding-bottom: 16rpx;
+}
+
+.py-24 {
+  padding-top: 24rpx;
+  padding-bottom: 24rpx;
+}
+
+.rounded-12 {
+  border-radius: 12rpx;
+}
+
+.rounded-16 {
+  border-radius: 16rpx;
+}
+
+.rounded-20 {
+  border-radius: 20rpx;
+}
+
+.shadow-soft {
+  box-shadow: 0 6rpx 16rpx rgba(16, 24, 40, 0.06);
+}
+
+.border {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e9edf3;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-page {
+  background-color: #f5f7fb;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  20%,
+  60% {
+    transform: rotate(-3deg);
+  }
+  40%,
+  80% {
+    transform: rotate(3deg);
+  }
+}
+
+.animate-shake {
+  animation: shake 0.8s ease-in-out;
+}
