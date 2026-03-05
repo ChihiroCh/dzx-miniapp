@@ -9,6 +9,20 @@ const tools = [
   { name: "厂房百科", icon: "/static/icons/home-tools/book-open.png" },
   { name: "文档下载", icon: "/static/icons/home-tools/download.png" },
 ];
+
+const onToolTap = (item) => {
+  if (item.name === "发布项目") {
+    uni.navigateTo({
+      url: "/package-invest/pages/project-entrust/index",
+    });
+    return;
+  }
+
+  uni.showToast({
+    title: `${item.name} 开发中`,
+    icon: "none",
+  });
+};
 </script>
 
 <template>
@@ -16,7 +30,14 @@ const tools = [
     <view class="tools-wrap">
       <text class="tools-title">厂房百宝箱</text>
       <view class="tools-grid">
-        <view v-for="item in tools" :key="item.name" class="tool-item" hover-class="tool-item-active" hover-stay-time="90">
+        <view
+          v-for="item in tools"
+          :key="item.name"
+          class="tool-item"
+          hover-class="tool-item-active"
+          hover-stay-time="90"
+          @tap="onToolTap(item)"
+        >
           <view class="tool-card">
             <view class="tool-card-content">
               <view class="tool-icon-wrap">

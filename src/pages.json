@@ -74,6 +74,12 @@
           }
         },
         {
+          "path": "pages/project-entrust/index",
+          "style": {
+            "navigationBarTitleText": "发布项目委托选址"
+          }
+        },
+        {
           "path": "pages/project-detail/index",
           "style": {
             "navigationBarTitleText": "招商项目详情"
@@ -120,6 +126,30 @@
     {
       "root": "package-mine",
       "pages": [
+        {
+          "path": "pages/chatting-parks/index",
+          "style": {
+            "navigationBarTitleText": "沟通中的园区"
+          }
+        },
+        {
+          "path": "pages/signed-parks/index",
+          "style": {
+            "navigationBarTitleText": "签约园区"
+          }
+        },
+        {
+          "path": "pages/factory-demand-detail/index",
+          "style": {
+            "navigationBarTitleText": "厂房需求卡详情"
+          }
+        },
+        {
+          "path": "pages/factory-demand/index",
+          "style": {
+            "navigationBarTitleText": "我的厂房需求卡"
+          }
+        },
         {
           "path": "pages/settings/index",
           "style": {
