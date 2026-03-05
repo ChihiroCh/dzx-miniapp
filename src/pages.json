@@ -122,6 +122,18 @@
           }
         },
         {
+          "path": "pages/vas-service-list/index",
+          "style": {
+            "navigationBarTitleText": "厂企增值服务列表"
+          }
+        },
+        {
+          "path": "pages/vas-service-detail/index",
+          "style": {
+            "navigationBarTitleText": "增值服务详情"
+          }
+        },
+        {
           "path": "pages/ai-chat/index",
           "style": {
             "navigationBarTitleText": "AI聊天"

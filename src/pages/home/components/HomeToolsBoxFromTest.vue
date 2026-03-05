@@ -17,6 +17,12 @@ const onToolTap = (item) => {
     });
     return;
   }
+  if (item.name === "增值服务") {
+    uni.navigateTo({
+      url: "/package-invest/pages/vas-service-list/index",
+    });
+    return;
+  }
 
   uni.showToast({
     title: `${item.name} 开发中`,
