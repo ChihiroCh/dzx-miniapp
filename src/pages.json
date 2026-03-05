@@ -62,6 +62,12 @@
           }
         },
         {
+          "path": "pages/startup-special/index",
+          "style": {
+            "navigationBarTitleText": "初创企业服务专题"
+          }
+        },
+        {
           "path": "pages/industry-cluster-detail/index",
           "style": {
             "navigationBarTitleText": "产业集群详情"
@@ -133,6 +139,12 @@
           }
         },
         {
+          "path": "pages/consultant/index",
+          "style": {
+            "navigationBarTitleText": "大招象专属顾问"
+          }
+        },
+        {
           "path": "pages/signed-parks/index",
           "style": {
             "navigationBarTitleText": "签约园区"
@@ -148,6 +160,12 @@
           "path": "pages/factory-demand/index",
           "style": {
             "navigationBarTitleText": "我的厂房需求卡"
+          }
+        },
+        {
+          "path": "pages/business-cooperation/index",
+          "style": {
+            "navigationBarTitleText": "商务合作"
           }
         },
         {

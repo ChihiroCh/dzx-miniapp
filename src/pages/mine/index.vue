@@ -112,6 +112,18 @@ const openSignedParks = () => {
   });
 };
 
+const openConsultantPage = () => {
+  uni.navigateTo({
+    url: "/package-mine/pages/consultant/index",
+  });
+};
+
+const openBusinessCooperationPage = () => {
+  uni.navigateTo({
+    url: "/package-mine/pages/business-cooperation/index",
+  });
+};
+
 const callAdvisor = () => {
   uni.makePhoneCall({
     phoneNumber: "4000000000",
@@ -158,7 +170,17 @@ const onFavoriteTap = () => {
   });
 };
 
-const onMenuTap = () => {
+const onMenuTap = (item) => {
+  if (item?.key === "consultant") {
+    openConsultantPage();
+    return;
+  }
+
+  if (item?.key === "business") {
+    openBusinessCooperationPage();
+    return;
+  }
+
   uni.showToast({
     title: "功能开发中",
     icon: "none",
@@ -272,7 +294,7 @@ const onMenuTap = () => {
         v-for="item in menuList"
         :key="item.key"
         class="menu-item card-base"
-        @tap="onMenuTap"
+        @tap="onMenuTap(item)"
       >
         <view class="menu-left">
           <view class="menu-icon-wrap">

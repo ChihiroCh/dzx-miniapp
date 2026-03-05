@@ -1,3 +1,11 @@
+<script setup>
+const openStartupSpecial = () => {
+  uni.navigateTo({
+    url: "/package-invest/pages/startup-special/index",
+  });
+};
+</script>
+
 <template>
   <view class="startup-section">
     <view class="startup-card">
@@ -20,7 +28,7 @@
           </view>
         </view>
 
-        <button class="startup-btn">
+        <button class="startup-btn" @tap="openStartupSpecial">
           <text class="startup-btn-text">立即查看</text>
           <image class="startup-btn-icon" src="/static/icons/home-startup/arrow-right.png" mode="aspectFit" />
         </button>
