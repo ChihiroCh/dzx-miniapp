@@ -124,6 +124,12 @@ const openBusinessCooperationPage = () => {
   });
 };
 
+const openAboutPage = () => {
+  uni.navigateTo({
+    url: "/package-mine/pages/about/index",
+  });
+};
+
 const callAdvisor = () => {
   uni.makePhoneCall({
     phoneNumber: "4000000000",
@@ -178,6 +184,11 @@ const onMenuTap = (item) => {
 
   if (item?.key === "business") {
     openBusinessCooperationPage();
+    return;
+  }
+
+  if (item?.key === "about") {
+    openAboutPage();
     return;
   }
 

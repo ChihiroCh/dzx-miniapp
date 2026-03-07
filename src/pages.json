@@ -122,6 +122,12 @@
           }
         },
         {
+          "path": "pages/rent-calculator/index",
+          "style": {
+            "navigationBarTitleText": "租金计算器"
+          }
+        },
+        {
           "path": "pages/vas-service-list/index",
           "style": {
             "navigationBarTitleText": "厂企增值服务列表"
@@ -138,12 +144,48 @@
           "style": {
             "navigationBarTitleText": "AI聊天"
           }
+        },
+        {
+          "path": "pages/factory-wiki/index",
+          "style": {
+            "navigationBarTitleText": "厂房百科"
+          }
+        },
+        {
+          "path": "pages/factory-wiki-detail/index",
+          "style": {
+            "navigationBarTitleText": "百科详情"
+          }
+        },
+        {
+          "path": "pages/site-guide/index",
+          "style": {
+            "navigationBarTitleText": "选址指南"
+          }
+        },
+        {
+          "path": "pages/site-guide-detail/index",
+          "style": {
+            "navigationBarTitleText": "选址指南详情"
+          }
+        },
+        {
+          "path": "pages/document-download/index",
+          "style": {
+            "navigationBarTitleText": "文档下载"
+          }
         }
       ]
     },
     {
       "root": "package-mine",
       "pages": [
+        {
+          "path": "pages/about/index",
+          "style": {
+            "navigationBarTitleText": "关于大招象"
+          }
+        },
         {
           "path": "pages/chatting-parks/index",
           "style": {

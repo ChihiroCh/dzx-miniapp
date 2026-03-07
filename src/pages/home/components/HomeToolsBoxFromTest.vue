@@ -17,9 +17,33 @@ const onToolTap = (item) => {
     });
     return;
   }
+  if (item.name === "租金计算器") {
+    uni.navigateTo({
+      url: "/package-invest/pages/rent-calculator/index",
+    });
+    return;
+  }
   if (item.name === "增值服务") {
     uni.navigateTo({
       url: "/package-invest/pages/vas-service-list/index",
+    });
+    return;
+  }
+  if (item.name === "选址指南") {
+    uni.navigateTo({
+      url: "/package-invest/pages/site-guide/index",
+    });
+    return;
+  }
+  if (item.name === "厂房百科") {
+    uni.navigateTo({
+      url: "/package-invest/pages/factory-wiki/index",
+    });
+    return;
+  }
+  if (item.name === "文档下载") {
+    uni.navigateTo({
+      url: "/package-invest/pages/document-download/index",
     });
     return;
   }
